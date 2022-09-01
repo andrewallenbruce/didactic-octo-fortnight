@@ -1,0 +1,30 @@
+{
+  "communityPluginSortOrder": "release",
+  "promptDelete": false,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showFrontmatter": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 84
+  },
+  "spellcheckDictionary": [
+    "benchmarking",
+    "Benchmarking",
+    "weren",
+    "incentivizing",
+    "uncollectible"
+  ],
+  "readableLineLength": true,
+  "foldHeading": true,
+  "attachmentFolderPath": "Assets/Attachments",
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showUnsupportedFiles": true,
+  "communityThemeSortOrder": "alphabetical",
+  "legacyEditor": false,
+  "livePreview": true
+}

@@ -1,0 +1,7 @@
+.CodeMirror-gutter-elt {
+    display: none;
+}
+
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    display: block;
+}

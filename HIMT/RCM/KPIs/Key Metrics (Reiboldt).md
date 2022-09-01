@@ -1,0 +1,63 @@
+# Key Metrics (Reiboldt)
+## Productivity
+- Visits by provider by site
+- [[Relative Value Unit (RVU)]] by provider by site
+- Gross revenue per visit by provider by site
+- Net revenue per visit by provider by site
+- [[Relative Value Unit (RVU)]] per visit
+- Hours worked per provider
+- Net revenue per visit
+- Individual payer net charges divided by total net charges 
+- Average charge and reimbursement per patient encounter
+- Number of new patients per full-time equivalent (FTE) provider
+## Financial 
+- Income/expense statement components to budget and previous year by site
+- Staff FTEs by provider
+- Overhead as a percentage of net revenue by site/department
+- Collection percentage (gross and net)
+- [[1. Introduction|Days in accounts receivable]]
+- Accounts receivable percentage by aging category
+- [[Credit Balance Reports|Credit balance]] summary report
+- Staff payroll plus benefits divided by net revenue
+- Staff hours worked
+- Patient visits
+- Provider compensation as a percentage of net revenue and net collections
+- Average cost per patient including provider salaries and benefits
+- Average cost per patient excluding provider salaries and benefits
+- Departmental expense ratios (i.e., total expenses per department divided by total net charges for all [[Current Procedural Terminology|CPT]] codes related to that department)
+- Key elements of overhead relative to net charges and net collections
+- Marketing costs per new patient
+- Time of Service (TOS) collection by site
+- Collections per FTE provider
+- Percentage of accounts receivable over 90, 120, 150 days
+- Payment [[Adjustments]] by provider, site, and practice/department
+## Operations
+- Access Wait Time 
+- Telephone Abandonment Rate
+- Wait Time per Visit
+- Wait Time for Return Call
+- Accounts Worked per Billing Clerk
+- Missing Ticket Report
+- Denial and [[Edit]] Report
+- Claim/Denial/Rejection Rate
+- Collection Agency Collection Rate
+- Transcription Turnaround
+- Words/Lines Transcribed per Day
+- Accounts Worked per Day
+- Patient Encounters Worked per Day
+- Payments Posted per Day
+- Billing FTE per Provider (excluding Data Entry)
+- Number of Appointment Slots
+- Total Appointments Divided by Total Actual Appointments
+- No-Show Rate
+- Number of New Patients per FTE Physician
+- Number of Capitated Patients per Provider
+- Clinical Staffing per FTE Provider
+- Number of Health Professionals per FTE Provider
+- Days in Backlog: Charges, Payments, and EOBs
+- Average Number of Missing Patient Encounter Forms
+- Time of Service (TOS) Collection Rate
+- Patient Wait Times at Time of Service (TOS)
+- Patient Cancellation Rate
+- Provider Cancellation Rate
+- Number of Referrals by Source and/or Provider

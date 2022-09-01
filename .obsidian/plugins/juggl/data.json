@@ -1,0 +1,1051 @@
+{
+  "password": "",
+  "splitDirection": "vertical",
+  "typedLinkPrefix": "-",
+  "imgServerPort": 3837,
+  "debug": false,
+  "globalStyleGroups": [
+    {
+      "filter": "tag:#SWDchallenge",
+      "color": "#0089BA",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#block-yui",
+      "color": "#D65DB1",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#SWDchallenges",
+      "color": "#FF9671",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#oligopsony",
+      "color": "#FFC75F",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#medicare",
+      "color": "#FF6F91",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#billing",
+      "color": "#F9F871",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#reimbursement",
+      "color": "#2C73D2",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#msp",
+      "color": "#0082C1",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#coding",
+      "color": "#A36AAA",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#HealthITchicks",
+      "color": "#4C9A52",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#13606-1",
+      "color": "#6F7F22",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#17090-1",
+      "color": "#2FAB63",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#4a86e8",
+      "color": "#008E9B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#0071bc",
+      "color": "#9270D3",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#046b99",
+      "color": "#F27D88",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#TidyTuesday",
+      "color": "#C3BB4E",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#rstats",
+      "color": "#E07250",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#N",
+      "color": "#B8E067",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#N-A",
+      "color": "#0081CF",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#VALUE",
+      "color": "#007F93",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#summarized",
+      "color": "#6967A9",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#Database_organization",
+      "color": "#00855B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#Analyze",
+      "color": "#257A3E",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#organization",
+      "color": "#008E63",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#Tables",
+      "color": "#008F7A",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#table",
+      "color": "#007ED9",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#CAST",
+      "color": "#D26F9D",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#FLOAT",
+      "color": "#88AC4B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#STRING",
+      "color": "#AC7C26",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#analysis",
+      "color": "#78C664",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#4_phases_of_analysis",
+      "color": "#008E9B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#metadata",
+      "color": "#007660",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#context",
+      "color": "#1b6299",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#consistency",
+      "color": "#006F61",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#metadata-repository",
+      "color": "#006F5F",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#internal",
+      "color": "#007160",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#external",
+      "color": "#0089BA",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#primary",
+      "color": "#D65DB1",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#secondary",
+      "color": "#FF9671",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#complicated",
+      "color": "#FFC75F",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#Internal",
+      "color": "#FF6F91",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#advantages",
+      "color": "#F9F871",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#openness",
+      "color": "#2C73D2",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#open-data",
+      "color": "#0082C1",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#Open",
+      "color": "#A36AAA",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#dataanalyst",
+      "color": "#4C9A52",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#dataanalytics",
+      "color": "#6F7F22",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#datascience",
+      "color": "#2FAB63",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#documentation",
+      "color": "#008E9B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#verification",
+      "color": "#9270D3",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#CASE",
+      "color": "#F27D88",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#SELECT",
+      "color": "#C3BB4E",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#COUNTA",
+      "color": "#E07250",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#reporting",
+      "color": "#B8E067",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#changelog",
+      "color": "#0081CF",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#FROM",
+      "color": "#007F93",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#INSERT_INTO",
+      "color": "#6967A9",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#CREATE_TABLE_IF_NOT_EXISTS",
+      "color": "#00855B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#DROP_TABLE_IF_EXISTS",
+      "color": "#257A3E",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#population",
+      "color": "#008E63",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#sample_size",
+      "color": "#008F7A",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#sample",
+      "color": "#007ED9",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#sampling_bias",
+      "color": "#D26F9D",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#data_integrity",
+      "color": "#88AC4B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#margin_of_error",
+      "color": "#AC7C26",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#statistical_power",
+      "color": "#78C664",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#hypothesis_testing",
+      "color": "#008E9B",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#statistically_significant",
+      "color": "#007660",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#statistically",
+      "color": "#1b6299",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#significant",
+      "color": "#006F61",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#insufficient_data",
+      "color": "#006F5F",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#six",
+      "color": "#007160",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#steps",
+      "color": "#0089BA",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#data",
+      "color": "#D65DB1",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    },
+    {
+      "filter": "tag:#process",
+      "color": "#FF9671",
+      "shape": "ellipse",
+      "icon": {
+        "name": "No icon",
+        "path": "",
+        "color": "white"
+      },
+      "showInPane": true,
+      "show": true,
+      "size": 1
+    }
+  ],
+  "globalGraphRibbon": true,
+  "graphSettings": {
+    "autoAddNodes": true,
+    "autoExpand": false,
+    "autoZoom": true,
+    "coreStore": "Obsidian",
+    "expandInitial": true,
+    "fdgdLayout": "d3-force",
+    "filter": "",
+    "height": "100%",
+    "hoverEdges": false,
+    "layout": "force-directed",
+    "limit": 10000,
+    "mergeEdges": true,
+    "metaKeyHover": true,
+    "mode": "local",
+    "navigator": true,
+    "openWithShift": false,
+    "styleGroups": [],
+    "toolbar": true,
+    "width": "100%",
+    "zoomSpeed": 0.59
+  },
+  "embedSettings": {
+    "autoAddNodes": false,
+    "autoExpand": false,
+    "autoZoom": false,
+    "coreStore": "Obsidian",
+    "expandInitial": true,
+    "fdgdLayout": "cola",
+    "filter": "",
+    "height": "400px",
+    "hoverEdges": false,
+    "layout": "force-directed",
+    "limit": 1000,
+    "mergeEdges": true,
+    "metaKeyHover": true,
+    "mode": "local",
+    "navigator": false,
+    "openWithShift": false,
+    "styleGroups": [],
+    "toolbar": false,
+    "width": "100%",
+    "zoomSpeed": 0.59
+  },
+  "globalGraphSettings": {
+    "autoAddNodes": true,
+    "autoExpand": false,
+    "autoZoom": true,
+    "coreStore": "Obsidian",
+    "expandInitial": false,
+    "fdgdLayout": "cola",
+    "filter": "-class:dangling -class:file",
+    "height": "100%",
+    "width": "100%",
+    "limit": 10000,
+    "hoverEdges": false,
+    "layout": "force-directed",
+    "mergeEdges": true,
+    "metaKeyHover": true,
+    "mode": "workspace",
+    "navigator": true,
+    "openWithShift": false,
+    "styleGroups": [],
+    "toolbar": true,
+    "zoomSpeed": 0.59
+  }
+}

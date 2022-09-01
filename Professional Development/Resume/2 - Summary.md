@@ -1,0 +1,9 @@
+I am a multi-credentialed graduate of a CAHIIM-accredited HIMT program, specializing in medical billing and coding, healthcare data analysis, and knowledge management. Prior to entering healthcare, I was a graphic designer for 15 years and am eager to ^i2bfvc
+
+I'm a multi-credentialed health information technologist, specializing in medical billing/coding, healthcare data analysis, and knowledge management. Prior to entering healthcare, I was a graphic designer for 15 years, creating for many different roles, both digital and print. ^a7gz1w
+
+Much like every field now, healthcare is saturated with data and I genuinely love the process of taking that data and figuring out what happened, what might happen, and what advice I might be able to give you to help, moving forward. Good visualization is a kindness to those looking for answers that are already overwhelmed. It is a crucial part of an explanation that is easy to understand. My goals are to learn data communication best practices and (hopefully) be an example to those around me that visualization is not just an afterthought. ^7w0xgu
+
+I am a multi-credentialed health information technologist with experience in every aspect of medical coding & billing, revenue cycle management, healthcare data analysis, and knowledge management. Prior to this, I was a graphic designer for 15 years, gaining invaluable experience in areas such as presentation, data visualization, customer service, and client communication. ^atqldm
+
+Multi-credentialed health information technologist, specializing in medical billing & coding, data analysis, and knowledge management. Previously a graphic designer for 15 years, preaching the gospel of good visualization and presentation.

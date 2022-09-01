@@ -1,0 +1,19 @@
+---
+tags: definition, design, universalprinciple
+---
+# Aesthetic-Usability Effect
+*Aesthetic designs are perceived as easier to use than less-aesthetic designs.*
+
+The aesthetic-usability effect^[Note that the authors use the term aesthetic-usability effect for convenient reference. It does not appear in the seminal work or subsequent research.] describes a phenomenon in which people perceive more-aesthetic designs as easier to use than less-aesthetic designs—whether they are or not. The effect has been observed in several experiments, and has significant implications regarding the acceptance, use, and performance of a design.^[The seminal work on the aesthetic-usability effect is “Apparent Usability vs. Inherent Usability: Experimental Analysis on the Determinants of the Apparent Usability” by Masaaki Kurosu and Kaori Kashimura, CHI ’95 Conference Companion, 1995, p. 292–293.]
+
+Aesthetic designs look easier to use and have a higher probability of being used, whether or not they actually are easier to use. More usable but less-aesthetic designs may suffer a lack of acceptance that renders issues of usability moot. These perceptions bias subsequent interactions and are resistant to change. For example, in a study of how people use computers, researchers found that early impressions influenced long-term attitudes about their quality and use. A similar phenomenon is well documented with regard to human attractiveness—first impressions of people influence attitude formation and measurably affect how people are perceived and treated.^[“Forming Impressions of Personality” by Solomon E. Asch, Journal of Abnormal and Social Psychology, 1946, vol. 41, 258–290.]
+
+Aesthetics play an important role in the way a design is used. Aesthetic designs are more effective at fostering positive attitudes than unaesthetic designs, and make people more tolerant of design problems. For example, it is common for people to name and develop feelings toward designs that have fostered positive attitudes (e.g., naming a car), and rare for people to do the same with designs that have fostered negative attitudes. Such personal and positive relationships with a design evoke feelings of affection, loyalty, and patience—all significant factors in the long-term usability and overall success of a design. These positive relationships have implications for how effectively people interact with designs. Positive relationships with a design result in an interaction that helps catalyze creative thinking and problem solving. Negative relationships result in an interaction that narrows thinking and stifles creativity. This is especially important in stressful environments, since stress increases fatigue and reduces cognitive performance.^[“Emotion & Design: Attractive Things Work Better” by Donald Norman, www.jnd.org, 2002.]
+
+Always aspire to create aesthetic designs. Aesthetic designs are perceived as easier to use, are more readily accepted and used over time, and promote creative thinking and problem solving. Aesthetic designs also foster positive relationships with people, making them more tolerant of problems with a design.
+
+## Example
+Nokia was one of the first companies to realize that adoption of cellular phones required more than basic communication features. Cellular phones need to be recharged frequently, carried around, and often suffer from signal loss or interference; they are not trouble-free devices.
+Aesthetic elements like color covers and customizable rings are more than ornaments; the aesthetic elements create a positive relationship with users that, in turn, make such troubles more tolerable and the devices more successful.
+## See Also
+[[Attractiveness Bias]], [[Contour Bias]], [[Form Follows Function]], [[Golden Ratio]], [[Law of Prägnanz]], [[Ockham’s Razor]], and [[Rule of Thirds]]

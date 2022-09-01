@@ -1,0 +1,406 @@
+Category,HCPCS,Short Descriptor,ID,ID Definition
+Medical Services,10021,Fna w/o image,1,Billed with CG modifier
+Medical Services,10040,Acne surgery,1,Billed with CG modifier
+Medical Services,10060,Drainage of skin abscess,1,Billed with CG modifier
+Medical Services,10061,Drainage of skin abscess,1,Billed with CG modifier
+Medical Services,10080,Drainage of pilonidal cyst,1,Billed with CG modifier
+Medical Services,10081,Drainage of pilonidal cyst,1,Billed with CG modifier
+Medical Services,10120,Remove foreign body,1,Billed with CG modifier
+Medical Services,10121,Remove foreign body,1,Billed with CG modifier
+Medical Services,10140,Drainage of hematoma/fluid,1,Billed with CG modifier
+Medical Services,10160,Puncture drainage of lesion,1,Billed with CG modifier
+Medical Services,11000,Debride infected skin,1,Billed with CG modifier
+Medical Services,11010,Debride skin at fx site,1,Billed with CG modifier
+Medical Services,11011,Debride skin musc at fx site,1,Billed with CG modifier
+Medical Services,11042,Deb subq tissue 20 sq cm/<,1,Billed with CG modifier
+Medical Services,11055,Trim skin lesion,1,Billed with CG modifier
+Medical Services,11056,Trim skin lesions 2 to 4,1,Billed with CG modifier
+Medical Services,11057,Trim skin lesions over 4,1,Billed with CG modifier
+Medical Services,11100,Biopsy skin lesion,1,Billed with CG modifier
+Medical Services,11200,Removal of skin tags <w/15,1,Billed with CG modifier
+Medical Services,11300,Shave skin lesion 0.5 cm/<,1,Billed with CG modifier
+Medical Services,11301,Shave skin lesion 0.6-1.0 cm,1,Billed with CG modifier
+Medical Services,11302,Shave skin lesion 1.1-2.0 cm,1,Billed with CG modifier
+Medical Services,11303,Shave skin lesion >2.0 cm,1,Billed with CG modifier
+Medical Services,11305,Shave skin lesion 0.5 cm/<,1,Billed with CG modifier
+Medical Services,11306,Shave skin lesion 0.6-1.0 cm,1,Billed with CG modifier
+Medical Services,11307,Shave skin lesion 1.1-2.0 cm,1,Billed with CG modifier
+Medical Services,11308,Shave skin lesion >2.0 cm,1,Billed with CG modifier
+Medical Services,11310,Shave skin lesion 0.5 cm/<,1,Billed with CG modifier
+Medical Services,11311,Shave skin lesion 0.6-1.0 cm,1,Billed with CG modifier
+Medical Services,11312,Shave skin lesion 1.1-2.0 cm,1,Billed with CG modifier
+Medical Services,11313,Shave skin lesion >2.0 cm,1,Billed with CG modifier
+Medical Services,11400,Exc tr-ext b9+marg 0.5 cm<,1,Billed with CG modifier
+Medical Services,11401,Exc tr-ext b9+marg 0.6-1 cm,1,Billed with CG modifier
+Medical Services,11402,Exc tr-ext b9+marg 1.1-2 cm,1,Billed with CG modifier
+Medical Services,11403,Exc tr-ext b9+marg 2.1-3cm/<,1,Billed with CG modifier
+Medical Services,11404,Exc tr-ext b9+marg 3.1-4 cm,1,Billed with CG modifier
+Medical Services,11406,Exc tr-ext b9+marg >4.0 cm,1,Billed with CG modifier
+Medical Services,11420,Exc h-f-nk-sp b9+marg 0.5/<,1,Billed with CG modifier
+Medical Services,11421,Exc h-f-nk-sp b9+marg 0.6-1,1,Billed with CG modifier
+Medical Services,11422,Exc h-f-nk-sp b9+marg 1.1-2,1,Billed with CG modifier
+Medical Services,11423,Exc h-f-nk-sp b9+marg 2.1-3,1,Billed with CG modifier
+Medical Services,11424,Exc h-f-nk-sp b9+marg 3.1-4,1,Billed with CG modifier
+Medical Services,11426,Exc h-f-nk-sp b9+marg >4 cm,1,Billed with CG modifier
+Medical Services,11440,Exc face-mm b9+marg 0.5 cm/<,1,Billed with CG modifier
+Medical Services,11441,Exc face-mm b9+marg 0.6-1 cm,1,Billed with CG modifier
+Medical Services,11442,Exc face-mm b9+marg 1.1-2 cm,1,Billed with CG modifier
+Medical Services,11443,Exc face-mm b9+marg 2.1-3 cm,1,Billed with CG modifier
+Medical Services,11444,Exc face-mm b9+marg 3.1-4 cm,1,Billed with CG modifier
+Medical Services,11446,Exc face-mm b9+marg >4 cm,1,Billed with CG modifier
+Medical Services,11450,Removal sweat gland lesion,1,Billed with CG modifier
+Medical Services,11600,Exc tr-ext mal+marg 0.5 cm/<,1,Billed with CG modifier
+Medical Services,11601,Exc tr-ext mal+marg 0.6-1 cm,1,Billed with CG modifier
+Medical Services,11602,Exc tr-ext mal+marg 1.1-2 cm,1,Billed with CG modifier
+Medical Services,11603,Exc tr-ext mal+marg 2.1-3 cm,1,Billed with CG modifier
+Medical Services,11604,Exc tr-ext mal+marg 3.1-4 cm,1,Billed with CG modifier
+Medical Services,11606,Exc tr-ext mal+marg >4 cm,1,Billed with CG modifier
+Medical Services,11620,Exc h-f-nk-sp mal+marg 0.5/<,1,Billed with CG modifier
+Medical Services,11621,Exc s/n/h/f/g mal+mrg 0.6-1,1,Billed with CG modifier
+Medical Services,11622,Exc s/n/h/f/g mal+mrg 1.1-2,1,Billed with CG modifier
+Medical Services,11623,Exc s/n/h/f/g mal+mrg 2.1-3,1,Billed with CG modifier
+Medical Services,11624,Exc s/n/h/f/g mal+mrg 3.1-4,1,Billed with CG modifier
+Medical Services,11626,Exc s/n/h/f/g mal+mrg >4 cm,1,Billed with CG modifier
+Medical Services,11640,Exc f/e/e/n/l mal+mrg 0.5cm<,1,Billed with CG modifier
+Medical Services,11641,Exc f/e/e/n/l mal+mrg 0.6-1,1,Billed with CG modifier
+Medical Services,11642,Exc f/e/e/n/l mal+mrg 1.1-2,1,Billed with CG modifier
+Medical Services,11643,Exc f/e/e/n/l mal+mrg 2.1-3,1,Billed with CG modifier
+Medical Services,11644,Exc f/e/e/n/l mal+mrg 3.1-4,1,Billed with CG modifier
+Medical Services,11646,Exc f/e/e/n/l mal+mrg >4 cm,1,Billed with CG modifier
+Medical Services,11719,Trim nail(s) any number,1,Billed with CG modifier
+Medical Services,11720,Debride nail 1-5,1,Billed with CG modifier
+Medical Services,11721,Debride nail 6 or more,1,Billed with CG modifier
+Medical Services,11730,Removal of nail plate,1,Billed with CG modifier
+Medical Services,11740,Drain blood from under nail,1,Billed with CG modifier
+Medical Services,11750,Removal of nail bed,1,Billed with CG modifier
+Medical Services,11752,Remove nail bed/tip,1,Billed with CG modifier
+Medical Services,11755,Biopsy nail unit,1,Billed with CG modifier
+Medical Services,11760,Repair of nail bed,1,Billed with CG modifier
+Medical Services,11762,Reconstruction of nail bed,1,Billed with CG modifier
+Medical Services,11765,Excision of nail fold toe,1,Billed with CG modifier
+Medical Services,11770,Remove pilonidal cyst simple,1,Billed with CG modifier
+Medical Services,11771,Remove pilonidal cyst exten,1,Billed with CG modifier
+Medical Services,11772,Remove pilonidal cyst compl,1,Billed with CG modifier
+Medical Services,11900,Inject skin lesions </w 7,1,Billed with CG modifier
+Medical Services,11901,Inject skin lesions >7,1,Billed with CG modifier
+Medical Services,12001,Rpr s/n/ax/gen/trnk 2.5cm/<,1,Billed with CG modifier
+Medical Services,12002,Rpr s/n/ax/gen/trnk2.6-7.5cm,1,Billed with CG modifier
+Medical Services,12004,Rpr s/n/ax/gen/trk7.6-12.5cm,1,Billed with CG modifier
+Medical Services,12005,Rpr s/n/a/gen/trk12.6-20.0cm,1,Billed with CG modifier
+Medical Services,12006,Rpr s/n/a/gen/trk20.1-30.0cm,1,Billed with CG modifier
+Medical Services,12007,Rpr s/n/ax/gen/trnk >30.0 cm,1,Billed with CG modifier
+Medical Services,12011,Rpr f/e/e/n/l/m 2.5 cm/<,1,Billed with CG modifier
+Medical Services,12013,Rpr f/e/e/n/l/m 2.6-5.0 cm,1,Billed with CG modifier
+Medical Services,12014,Rpr f/e/e/n/l/m 5.1-7.5 cm,1,Billed with CG modifier
+Medical Services,12015,Rpr f/e/e/n/l/m 7.6-12.5 cm,1,Billed with CG modifier
+Medical Services,12016,Rpr fe/e/en/l/m 12.6-20.0 cm,1,Billed with CG modifier
+Medical Services,12017,Rpr fe/e/en/l/m 20.1-30.0 cm,1,Billed with CG modifier
+Medical Services,12018,Rpr f/e/e/n/l/m >30.0 cm,1,Billed with CG modifier
+Medical Services,12020,Closure of split wound,1,Billed with CG modifier
+Medical Services,12021,Closure of split wound,1,Billed with CG modifier
+Medical Services,12031,Intmd rpr s/a/t/ext 2.5 cm/<,1,Billed with CG modifier
+Medical Services,12032,Intmd rpr s/a/t/ext 2.6-7.5,1,Billed with CG modifier
+Medical Services,12034,Intmd rpr s/tr/ext 7.6-12.5,1,Billed with CG modifier
+Medical Services,12035,Intmd rpr s/a/t/ext 12.6-20,1,Billed with CG modifier
+Medical Services,12036,Intmd rpr s/a/t/ext 20.1-30,1,Billed with CG modifier
+Medical Services,12037,Intmd rpr s/tr/ext >30.0 cm,1,Billed with CG modifier
+Medical Services,12041,Intmd rpr n-hf/genit 2.5cm/<,1,Billed with CG modifier
+Medical Services,12042,Intmd rpr n-hf/genit2.6-7.5,1,Billed with CG modifier
+Medical Services,12044,Intmd rpr n-hf/genit7.6-12.5,1,Billed with CG modifier
+Medical Services,12045,Intmd rpr n-hf/genit12.6-20,1,Billed with CG modifier
+Medical Services,12046,Intmd rpr n-hf/genit20.1-30,1,Billed with CG modifier
+Medical Services,12047,Intmd rpr n-hf/genit >30.0cm,1,Billed with CG modifier
+Medical Services,12051,Intmd rpr face/mm 2.5 cm/<,1,Billed with CG modifier
+Medical Services,12052,Intmd rpr face/mm 2.6-5.0 cm,1,Billed with CG modifier
+Medical Services,12053,Intmd rpr face/mm 5.1-7.5 cm,1,Billed with CG modifier
+Medical Services,12054,Intmd rpr face/mm 7.6-12.5cm,1,Billed with CG modifier
+Medical Services,12055,Intmd rpr face/mm 12.6-20 cm,1,Billed with CG modifier
+Medical Services,12056,Intmd rpr face/mm 20.1-30.0,1,Billed with CG modifier
+Medical Services,12057,Intmd rpr face/mm >30.0 cm,1,Billed with CG modifier
+Medical Services,15271,Skin sub graft trnk/arm/leg,1,Billed with CG modifier
+Medical Services,16000,Initial treatment of burn(s),1,Billed with CG modifier
+Medical Services,16020,Dress/debrid p-thick burn s,1,Billed with CG modifier
+Medical Services,16025,Dress/debrid p-thick burn m,1,Billed with CG modifier
+Medical Services,16030,Dress/debrid p-thick burn l,1,Billed with CG modifier
+Medical Services,16035,Incision of burn scab initi,1,Billed with CG modifier
+Medical Services,17000,Destruct premalg lesion,1,Billed with CG modifier
+Medical Services,17003,Destruct premalg les 2-14,1,Billed with CG modifier
+Medical Services,17004,Destroy premal lesions 15/>,1,Billed with CG modifier
+Medical Services,17106,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17107,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17108,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17110,Destruct b9 lesion 1-14,1,Billed with CG modifier
+Medical Services,17111,Destruct lesion 15 or more,1,Billed with CG modifier
+Medical Services,17250,Chemical cautery tissue,1,Billed with CG modifier
+Medical Services,17260,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17261,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17262,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17263,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17264,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17266,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17270,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17271,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17272,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17273,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17274,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17276,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17280,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17281,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17282,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17283,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17284,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,17286,Destruction of skin lesions,1,Billed with CG modifier
+Medical Services,19000,Drainage of breast lesion,1,Billed with CG modifier
+Medical Services,20500,Injection of sinus tract,2,No longer a stand-alone billable visit
+Medical Services,20501,Inject sinus tract for x-ray,2,No longer a stand-alone billable visit
+Medical Services,20520,Removal of foreign body,1,Billed with CG modifier
+Medical Services,20525,Removal of foreign body,1,Billed with CG modifier
+Medical Services,20526,Ther injection carp tunnel,1,Billed with CG modifier
+Medical Services,20527,Inj dupuytren cord w/enzyme,1,Billed with CG modifier
+Medical Services,20550,Inj tendon sheath/ligament,1,Billed with CG modifier
+Medical Services,20551,Inj tendon origin/insertion,1,Billed with CG modifier
+Medical Services,20552,Inj trigger point 1/2 muscl,1,Billed with CG modifier
+Medical Services,20553,Inject trigger points 3/>,1,Billed with CG modifier
+Medical Services,20600,Drain/inj joint/bursa w/o us,1,Billed with CG modifier
+Medical Services,20604,Drain/inj joint/bursa w/us,1,Billed with CG modifier
+Medical Services,20605,Drain/inj joint/bursa w/o us,1,Billed with CG modifier
+Medical Services,20606,Drain/inj joint/bursa w/us,1,Billed with CG modifier
+Medical Services,20610,Drain/inj joint/bursa w/o us,1,Billed with CG modifier
+Medical Services,20611,Drain/inj joint/bursa w/us,1,Billed with CG modifier
+Medical Services,20612,Aspirate/inj ganglion cyst,1,Billed with CG modifier
+Medical Services,20615,Treatment of bone cyst,1,Billed with CG modifier
+Medical Services,23500,Treat clavicle fracture,1,Billed with CG modifier
+Medical Services,23650,Treat shoulder dislocation,1,Billed with CG modifier
+Medical Services,23931,Drainage of arm bursa,1,Billed with CG modifier
+Medical Services,24640,Treat elbow dislocation,1,Billed with CG modifier
+Medical Services,24650,Treat radius fracture,1,Billed with CG modifier
+Medical Services,24670,Treat ulnar fracture,1,Billed with CG modifier
+Medical Services,25500,Treat fracture of radius,1,Billed with CG modifier
+Medical Services,25600,Treat fracture radius/ulna,1,Billed with CG modifier
+Medical Services,25622,Treat wrist bone fracture,1,Billed with CG modifier
+Medical Services,26010,Drainage of finger abscess,1,Billed with CG modifier
+Medical Services,26011,Drainage of finger abscess,1,Billed with CG modifier
+Medical Services,26115,Exc hand les sc < 1.5 cm,1,Billed with CG modifier
+Medical Services,26600,Treat metacarpal fracture,1,Billed with CG modifier
+Medical Services,26605,Treat metacarpal fracture,1,Billed with CG modifier
+Medical Services,26750,Treat finger fracture each,1,Billed with CG modifier
+Medical Services,27093,Injection for hip x-ray,1,Billed with CG modifier
+Medical Services,27520,Treat kneecap fracture,1,Billed with CG modifier
+Medical Services,27530,Treat knee fracture,1,Billed with CG modifier
+Medical Services,27750,Treatment of tibia fracture,1,Billed with CG modifier
+Medical Services,27760,Cltx medial ankle fx,1,Billed with CG modifier
+Medical Services,27780,Treatment of fibula fracture,1,Billed with CG modifier
+Medical Services,27786,Treatment of ankle fracture,1,Billed with CG modifier
+Medical Services,27808,Treatment of ankle fracture,1,Billed with CG modifier
+Medical Services,27824,Treat lower leg fracture,1,Billed with CG modifier
+Medical Services,28080,Removal of foot lesion,1,Billed with CG modifier
+Medical Services,28190,Removal of foot foreign body,1,Billed with CG modifier
+Medical Services,28450,Treat midfoot fracture each,1,Billed with CG modifier
+Medical Services,28470,Treat metatarsal fracture,1,Billed with CG modifier
+Medical Services,28490,Treat big toe fracture,1,Billed with CG modifier
+Medical Services,28515,Treatment of toe fracture,1,Billed with CG modifier
+Medical Services,29065,Application of long arm cast,1,Billed with CG modifier
+Medical Services,29075,Application of forearm cast,1,Billed with CG modifier
+Medical Services,29085,Apply hand/wrist cast,1,Billed with CG modifier
+Medical Services,29086,Apply finger cast,1,Billed with CG modifier
+Medical Services,29105,Apply long arm splint,1,Billed with CG modifier
+Medical Services,29125,Apply forearm splint,1,Billed with CG modifier
+Medical Services,29126,Apply forearm splint,1,Billed with CG modifier
+Medical Services,29130,Application of finger splint,1,Billed with CG modifier
+Medical Services,29131,Application of finger splint,1,Billed with CG modifier
+Medical Services,29240,Strapping of shoulder,1,Billed with CG modifier
+Medical Services,29260,Strapping of elbow or wrist,1,Billed with CG modifier
+Medical Services,29280,Strapping of hand or finger,1,Billed with CG modifier
+Medical Services,29305,Application of hip cast,1,Billed with CG modifier
+Medical Services,29345,Application of long leg cast,1,Billed with CG modifier
+Medical Services,29355,Application of long leg cast,1,Billed with CG modifier
+Medical Services,29405,Apply short leg cast,1,Billed with CG modifier
+Medical Services,29425,Apply short leg cast,1,Billed with CG modifier
+Medical Services,29435,Apply short leg cast,1,Billed with CG modifier
+Medical Services,29440,Addition of walker to cast,1,Billed with CG modifier
+Medical Services,29445,Apply rigid leg cast,1,Billed with CG modifier
+Medical Services,29450,Application of leg cast,1,Billed with CG modifier
+Medical Services,29505,Application long leg splint,1,Billed with CG modifier
+Medical Services,29515,Application lower leg splint,1,Billed with CG modifier
+Medical Services,29530,Strapping of knee,1,Billed with CG modifier
+Medical Services,29540,Strapping of ankle and/or ft,1,Billed with CG modifier
+Medical Services,29550,Strapping of toes,1,Billed with CG modifier
+Medical Services,29580,Application of paste boot,1,Billed with CG modifier
+Medical Services,29581,Apply multlay comprs lwr leg,1,Billed with CG modifier
+Medical Services,29582,Apply multlay comprs upr leg,1,Billed with CG modifier
+Medical Services,29583,Apply multlay comprs upr arm,1,Billed with CG modifier
+Medical Services,29584,Appl multlay comprs arm/hand,1,Billed with CG modifier
+Medical Services,29700,Removal/revision of cast,1,Billed with CG modifier
+Medical Services,29705,Removal/revision of cast,1,Billed with CG modifier
+Medical Services,30300,Remove nasal foreign body,1,Billed with CG modifier
+Medical Services,30901,Control of nosebleed,1,Billed with CG modifier
+Medical Services,30903,Control of nosebleed,1,Billed with CG modifier
+Medical Services,30905,Control of nosebleed,1,Billed with CG modifier
+Medical Services,30906,Repeat control of nosebleed,1,Billed with CG modifier
+Medical Services,45300,Proctosigmoidoscopy dx,1,Billed with CG modifier
+Medical Services,46050,Incision of anal abscess,1,Billed with CG modifier
+Medical Services,46083,Incise external hemorrhoid,1,Billed with CG modifier
+Medical Services,46320,Removal of hemorrhoid clot,1,Billed with CG modifier
+Medical Services,46600,Diagnostic anoscopy spx,1,Billed with CG modifier
+Medical Services,51700,Irrigation of bladder,1,Billed with CG modifier
+Medical Services,51701,Insert bladder catheter,1,Billed with CG modifier
+Medical Services,51702,Insert temp bladder cath,1,Billed with CG modifier
+Medical Services,51705,Change of bladder tube,1,Billed with CG modifier
+Medical Services,51720,Treatment of bladder lesion,1,Billed with CG modifier
+Medical Services,51725,Simple cystometrogram,1,Billed with CG modifier
+Medical Services,51728,Cystometrogram w/vp,1,Billed with CG modifier
+Medical Services,51736,Urine flow measurement,1,Billed with CG modifier
+Medical Services,51741,Electro-uroflowmetry first,1,Billed with CG modifier
+Medical Services,51784,Anal/urinary muscle study,1,Billed with CG modifier
+Medical Services,51798,Us urine capacity measure,1,Billed with CG modifier
+Medical Services,52000,Cystoscopy,1,Billed with CG modifier
+Medical Services,52281,Cystoscopy and treatment,1,Billed with CG modifier
+Medical Services,53601,Dilate urethra stricture,1,Billed with CG modifier
+Medical Services,53661,Dilation of urethra,1,Billed with CG modifier
+Medical Services,54050,Destruction penis lesion(s),1,Billed with CG modifier
+Medical Services,54056,Cryosurgery penis lesion(s),1,Billed with CG modifier
+Medical Services,54060,Excision of penis lesion(s),1,Billed with CG modifier
+Medical Services,54065,Destruction penis lesion(s),1,Billed with CG modifier
+Medical Services,54150,Circumcision w/regional block,1,Billed with CG modifier
+Medical Services,55700,Biopsy of prostate,1,Billed with CG modifier
+Medical Services,56405,I & d of vulva/perineum,1,Billed with CG modifier
+Medical Services,56420,Drainage of gland abscess,1,Billed with CG modifier
+Medical Services,56440,Surgery for vulva lesion,1,Billed with CG modifier
+Medical Services,56441,Lysis of labial lesion(s),1,Billed with CG modifier
+Medical Services,56442,Hymenotomy,1,Billed with CG modifier
+Medical Services,56501,Destroy vulva lesions sim,1,Billed with CG modifier
+Medical Services,56515,Destroy vulva lesion/s compl,1,Billed with CG modifier
+Medical Services,56605,Biopsy of vulva/perineum,1,Billed with CG modifier
+Medical Services,56606,Biopsy of vulva/perineum,1,Billed with CG modifier
+Medical Services,56820,Exam of vulva w/scope,1,Billed with CG modifier
+Medical Services,56821,Exam/biopsy of vulva w/scope,1,Billed with CG modifier
+Medical Services,57061,Destroy vag lesions simple,1,Billed with CG modifier
+Medical Services,57065,Destroy vag lesions complex,1,Billed with CG modifier
+Medical Services,57160,Insert pessary/other device,1,Billed with CG modifier
+Medical Services,57420,Exam of vagina w/scope,1,Billed with CG modifier
+Medical Services,57452,Exam of cervix w/scope,1,Billed with CG modifier
+Medical Services,57454,Bx/curett of cervix w/scope,1,Billed with CG modifier
+Medical Services,57455,Biopsy of cervix w/scope,1,Billed with CG modifier
+Medical Services,57460,Bx of cervix w/scope leep,1,Billed with CG modifier
+Medical Services,57461,Conz of cervix w/scope leep,1,Billed with CG modifier
+Medical Services,57500,Biopsy of cervix,1,Billed with CG modifier
+Medical Services,57505,Endocervical curettage,1,Billed with CG modifier
+Medical Services,57510,Cauterization of cervix,1,Billed with CG modifier
+Medical Services,57511,Cryocautery of cervix,1,Billed with CG modifier
+Medical Services,58100,Biopsy of uterus lining,1,Billed with CG modifier
+Medical Services,59200,Insert cervical dilator,1,Billed with CG modifier
+Medical Services,59425,Antepartum care only,1,Billed with CG modifier
+Medical Services,59426,Antepartum care only,1,Billed with CG modifier
+Medical Services,59430,Care after delivery,1,Billed with CG modifier
+Medical Services,64405,N block inj occipital,1,Billed with CG modifier
+Medical Services,64450,N block other peripheral,1,Billed with CG modifier
+Medical Services,64455,N block inj plantar digit,1,Billed with CG modifier
+Medical Services,65205,Remove foreign body from eye,1,Billed with CG modifier
+Medical Services,65210,Remove foreign body from eye,1,Billed with CG modifier
+Medical Services,65220,Remove foreign body from eye,1,Billed with CG modifier
+Medical Services,65222,Remove foreign body from eye,1,Billed with CG modifier
+Medical Services,69000,Drain external ear lesion,1,Billed with CG modifier
+Medical Services,69005,Drain external ear lesion,1,Billed with CG modifier
+Medical Services,69200,Clear outer ear canal,1,Billed with CG modifier
+Medical Services,69209,Remove impacted ear wax uni,1,Billed with CG modifier
+Medical Services,69210,Remove impacted ear wax uni,1,Billed with CG modifier
+Medical Services,76801,Ob us < 14 wks single fetus,1,Billed with CG modifier
+Medical Services,76802,Ob us < 14 wks addl fetus,1,Billed with CG modifier
+Medical Services,76805,Ob us >/= 14 wks sngl fetus,1,Billed with CG modifier
+Medical Services,76810,Ob us >/= 14 wks addl fetus,1,Billed with CG modifier
+Medical Services,76815,Ob us limited fetus(s),1,Billed with CG modifier
+Medical Services,76816,Ob us follow-up per fetus,1,Billed with CG modifier
+Medical Services,76817,Transvaginal us obstetric,1,Billed with CG modifier
+Medical Services,76819,Fetal biophys profil w/o nst,1,Billed with CG modifier
+Medical Services,76830,Transvaginal us non-ob,1,Billed with CG modifier
+Medical Services,76856,Us exam pelvic complete,1,Billed with CG modifier
+Medical Services,76857,Us exam pelvic limited,1,Billed with CG modifier
+Medical Services,92002,Eye exam new patient,0,No Indicator
+Medical Services,92004,Eye exam new patient,0,No Indicator
+Medical Services,92012,Eye exam establish patient,0,No Indicator
+Medical Services,92014,Eye exam&tx estab pt 1/>vst,0,No Indicator
+Medical Services,92511,Nasopharyngoscopy,1,Billed with CG modifier
+Medical Services,95992,Canalith repositioning proc,1,Billed with CG modifier
+Medical Services,97597,Rmvl devital tis 20 cm/<,1,Billed with CG modifier
+Medical Services,97602,Wound(s) care non-selective,2,No longer a stand-alone billable visit
+Medical Services,98925,Osteopath manj 1-2 regions,1,Billed with CG modifier
+Medical Services,98926,Osteopath manj 3-4 regions,1,Billed with CG modifier
+Medical Services,98927,Osteopath manj 5-6 regions,1,Billed with CG modifier
+Medical Services,98928,Osteopath manj 7-8 regions,1,Billed with CG modifier
+Medical Services,98929,Osteopath manj 9-10 regions,1,Billed with CG modifier
+Medical Services,98940,Chiropract manj 1-2 regions,1,Billed with CG modifier
+Medical Services,98941,Chiropract manj 3-4 regions,1,Billed with CG modifier
+Medical Services,98942,Chiropractic manj 5 regions,1,Billed with CG modifier
+Medical Services,99201,Office/outpatient visit new,0,No Indicator
+Medical Services,99202,Office/outpatient visit new,0,No Indicator
+Medical Services,99203,Office/outpatient visit new,0,No Indicator
+Medical Services,99204,Office/outpatient visit new,0,No Indicator
+Medical Services,99205,Office/outpatient visit new,0,No Indicator
+Medical Services,99212,Office/outpatient visit est,0,No Indicator
+Medical Services,99213,Office/outpatient visit est,0,No Indicator
+Medical Services,99214,Office/outpatient visit est,0,No Indicator
+Medical Services,99215,Office/outpatient visit est,0,No Indicator
+Medical Services,99304,Nursing facility care init,0,No Indicator
+Medical Services,99305,Nursing facility care init,0,No Indicator
+Medical Services,99306,Nursing facility care init,0,No Indicator
+Medical Services,99307,Nursing fac care subseq,0,No Indicator
+Medical Services,99308,Nursing fac care subseq,0,No Indicator
+Medical Services,99309,Nursing fac care subseq,0,No Indicator
+Medical Services,99310,Nursing fac care subseq,0,No Indicator
+Medical Services,99315,Nursing fac discharge day,0,No Indicator
+Medical Services,99316,Nursing fac discharge day,0,No Indicator
+Medical Services,99318,Annual nursing fac assessmnt,0,No Indicator
+Medical Services,99324,Domicil/r-home visit new pat,0,No Indicator
+Medical Services,99325,Domicil/r-home visit new pat,0,No Indicator
+Medical Services,99326,Domicil/r-home visit new pat,0,No Indicator
+Medical Services,99327,Domicil/r-home visit new pat,0,No Indicator
+Medical Services,99328,Domicil/r-home visit new pat,0,No Indicator
+Medical Services,99334,Domicil/r-home visit est pat,0,No Indicator
+Medical Services,99335,Domicil/r-home visit est pat,0,No Indicator
+Medical Services,99336,Domicil/r-home visit est pat,0,No Indicator
+Medical Services,99337,Domicil/r-home visit est pat,0,No Indicator
+Medical Services,99341,Home visit new patient,0,No Indicator
+Medical Services,99342,Home visit new patient,0,No Indicator
+Medical Services,99343,Home visit new patient,0,No Indicator
+Medical Services,99344,Home visit new patient,0,No Indicator
+Medical Services,99345,Home visit new patient,0,No Indicator
+Medical Services,99347,Home visit est patient,0,No Indicator
+Medical Services,99348,Home visit est patient,0,No Indicator
+Medical Services,99349,Home visit est patient,0,No Indicator
+Medical Services,99350,Home visit est patient,0,No Indicator
+Medical Services,99495,Trans care mgmt 14 day disch,0,No Indicator
+Medical Services,99496,Trans care mgmt 7 day disch,0,No Indicator
+Medical Services,99497,Advncd care plan 30 min,0,No Indicator
+Medical Services,G0127,Trim nail(s),1,Billed with CG modifier
+Medical Services,G0168,Wound closure by adhesive,1,Billed with CG modifier
+Medical Services,G0245,Initial foot exam pt lops,1,Billed with CG modifier
+Medical Services,G0246,Followup eval of foot pt lop,1,Billed with CG modifier
+Medical Services,G0247,Routine footcare pt w lops,1,Billed with CG modifier
+Medical Services,G0490,"Home visit RN, LPN by RHC/FQ",3,Stand-alone billable visit
+CCM,99490,?,6,Paid based on MPFS natl avg non-facil rate
+Preventive Health,99406,Behav chng smoking 3-10 min,4,Copayment waived
+Preventive Health,99407,Behav chng smoking > 10 min,4,Copayment waived
+Preventive Health,G0101,Ca screen; pelvic/breast exam,0,No Indicator
+Preventive Health,G0102,Prostate ca screening; dre,5,Coinsurance/deductible not waived
+Preventive Health,"G0117",Glaucoma scrn hgh risk direc,5,Coinsurance/deductible not waived
+Preventive Health,G0118,Glaucoma scrn hgh risk direc,5,Coinsurance/deductible not waived
+Preventive Health,G0296,Visit to determ LDCT elig,0,No Indicator
+Preventive Health,G0402,Initial preventive exam,0,No Indicator
+Preventive Health,G0436,Tobacco-use counsel 3-10 min,7,Discontinued 10/01/16
+Preventive Health,G0437,Tobacco-use counsel >10,7,Discontinued 10/01/16
+Preventive Health,G0438,"Ppps, initial visit",0,No Indicator
+Preventive Health,G0439,"Ppps, subseq visit",0,No Indicator
+Preventive Health,G0442,Annual alcohol screen 15 min,0,No Indicator
+Preventive Health,G0443,Brief alcohol misuse counsel,0,No Indicator
+Preventive Health,G0444,Depression screen annual,0,No Indicator
+Preventive Health,G0445,High inten beh couns std 30 min,0,No Indicator
+Preventive Health,G0446,Intens behave ther cardio dx,0,No Indicator
+Preventive Health,G0447,Behavior counsel obesity 15 min,0,No Indicator
+Preventive Health,Q0091,Obtaining screen pap smear,0,No Indicator
+Mental Health,90791,Psych diagnostic evaluation,0,No Indicator
+Mental Health,90792,Psych diag eval w/med srvcs,0,No Indicator
+Mental Health,90832,Psytx pt&/family 30 minutes,0,No Indicator
+Mental Health,90834,Psytx pt&/family 45 minutes,0,No Indicator
+Mental Health,90837,Psytx pt&/family 60 minutes,0,No Indicator
+Mental Health,90839,Psytx crisis initial 60 min,0,No Indicator
+Mental Health,90845,Psychoanalysis,0,No Indicator

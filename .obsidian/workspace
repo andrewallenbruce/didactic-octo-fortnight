@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "08fa1dd0ae2bcd52",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4d7fe71b6ec09f6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "R/Package Development.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd9f284f3bb5d86d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c830c61045faef6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "454ae2dadf79a6bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "908bc93f0f016e0b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "703f831e4d26cf52",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#cpt",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 284
+  },
+  "right": {
+    "id": "7eb9cfd3fea0ef53",
+    "type": "split",
+    "children": [
+      {
+        "id": "837b8f3511dbf299",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8532c1b667790d8c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "R/Package Development.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 5,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1,
+                  "nodeSizeMultiplier": 0.69928524156188,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.477961614824619,
+                  "repelStrength": 9.55923229649239,
+                  "linkStrength": 0.715287888815354,
+                  "linkDistance": 30,
+                  "scale": 0.047360667917616193,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5505955a3d8daa3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19a42e95e2065bb0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "R/Package Development.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ac0728622e21a1ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "R/Package Development.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "99e7160de3e4fed1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "R/Package Development.md"
+              }
+            }
+          },
+          {
+            "id": "07d574ee257ae19d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c520872dc2e48df8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0cd7a42728fa2fb3",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 209,
+    "collapsed": true
+  },
+  "active": "b4d7fe71b6ec09f6",
+  "lastOpenFiles": [
+    "R/defogger Package.md",
+    "R/forager Package.md",
+    "R/Package Development.md",
+    "Home.md",
+    "HIMT/2021 AAPC CDEI Course/CDEI Chapter 1 Quiz + Review.md",
+    "HIMT/Glossary/Modifier.md",
+    "HIMT/RCM/Coding/Modifiers/33 - Preventive Services.md",
+    "HIMT/RCM/Coding/Modifiers/32 - Mandated Services.md",
+    "HIMT/RCM/Coding/Modifiers/26 - Professional Component.md",
+    "INBOX/Moore Ideas.md"
+  ]
+}

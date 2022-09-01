@@ -1,0 +1,15 @@
+{
+  "couchDB_URI": "",
+  "couchDB_USER": "",
+  "couchDB_PASSWORD": "",
+  "liveSync": false,
+  "syncOnSave": false,
+  "syncOnStart": false,
+  "savingDelay": 200,
+  "lessInformationInLog": false,
+  "gcDelay": 30,
+  "versionUpFlash": "I changed specifications incompatiblly, so when you enable sync again, be sure to made version up all nother devides.",
+  "minimumChunkSize": 20,
+  "longLineThreshold": 250,
+  "showVerboseLog": false
+}

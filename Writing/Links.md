@@ -1,0 +1,5 @@
+[Archive - Interdisciplinary Insights](https://reskilling.substack.com/archive?sort=top)
+[Blog](https://ljupcho.com/blog.html)
+[Ljupcho Naumov – Medium](https://medium.com/@LjNaumov)
+[https://healthdataviz.com](https://healthdataviz.com/)
+[Hemingway Editor](https://hemingwayapp.com/)

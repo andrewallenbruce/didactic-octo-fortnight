@@ -1,0 +1,30 @@
+---
+tags: rhc, fqhc, medicare, claims, chapter9
+---
+# Rural Health Clinic Qualifying Visit List (RHC QVL)
+
+The RHC QVL is intended as guidance for RHCs beginning to report [[HCPCS Level II|HCPCS]] codes. It consists of frequently reported Healthcare Common Procedure Coding System (HCPCS) codes that qualify as a face-to-face visit between the patient and an RHC practitioner and it is not an all-inclusive list of stand-alone billable visits for RHCs. More information on what is considered a RHC visit is included in the “RHC Visits” section of this guidance. 
+
+In this update to the QVL, HCPCS code G0490 has been added as a stand-alone billable visit effective October 1, 2016 and HCPCS codes G0436 and G0437 have been replaced with [[Current Procedural Terminology|CPT]] codes 99406 and 99407 effective October 1, 2016. See the table below and accompanying footnotes for more information. The billable visits shown in black below are both effective and payable as stand-alone services beginning with dates of service on or after April 1, 2016. The billable visits shown in red below are effective for dates of service on or after April 1, 2016, for [[Claim Form|claims]] and [[Adjustments]] received on or after October 1, 2016. RHCs should hold claims solely for these billable visits (shown in red) until October 1, when RHCs can bill these claims for payment with the [[Modifier CG|CG]] modifier (explained below). For dates of service on or after October 1, 2016, a medically-necessary service not on the current QVL can be billed as a stand-alone billable visit if the service meets Medicare coverage requirements, is within the scope of the RHC benefit, and is not furnished incident to a physician’s service. 
+
+NOTE: The use of a HCPCS code from the below QVL does not guarantee payment of the claim. All of the conditions for coverage and payment must be met for payment to be made. RHCs must retain adequate documentation of a patient’s condition and the services furnished as part of the patient’s medical record, which, along with the claim, may be subject to review by [[CMS]], its contractors, or other oversight authorities. 
+
+## HCPCS Reporting Requirements 
+For dates of service on or after April 1, 2016, RHCs are required to report the appropriate HCPCS code for each service line along with revenue code on their Medicare claims. Services furnished through March 31, 2016, are not required to be reported with HCPCS code and should be billed under the previous guidelines. 
+
+From April 1, 2016 through September 30, 2016, all charges for a visit must be reported on the service line with the qualifying visit HCPCS code, minus any charges for preventive services using revenue code 052x for medical services and/or revenue code 0900 for mental health services. RHCs are allowed to report additional 052x or 0900 revenue code lines. Beginning on October 1, 2016, the Medicare administrative contractors ([[Medicare Administrative Contractor (MAC)|MACs]]) will accept modifier CG (policy criteria applied) on RHC claims and adjustments. RHCs shall report modifier CG on one revenue code 052x and/or 0900 service line, which includes all charges subject to coinsurance and [[Deductible]] for the visit. Modifier CG should only be used to indicate which revenue code 052x and/or 0900 service line should receive the all-inclusive rate ([[RHC All Inclusive Rate (AIR)|AIR]]) and be subject to coinsurance and deductible. Each additional service furnished during the visit should be reported with charges greater to or equal to $0.01. The additional service lines are for informational purposes only. MACs will package/bundle the additional service lines, which do not receive the AIR. 
+
+## RHC Visits 
+An RHC visit is defined as a medically necessary medical or mental health visit, or a qualified preventive health visit. The visit must be a face-to-face (one-on-one) encounter between the patient and an RHC practitioner during which time one or more RHC services are furnished. A Transitional Care Management service can also be an RHC visit. 
+
+Qualified preventive health services include the IPPE, the AWV, and other Medicare covered preventive services recommended by the USPSTF with a grade of A or B. For a complete list of preventive services and their coinsurance and deductible requirements, see the “RHC Preventive Services Chart” on the [CMS RHC center webpage](https://www.cms.gov/Center/Provider-Type/Rural-Health-Clinics-Center.html). 
+
+To qualify for Medicare payment, all the coverage requirements for a RHC visit must be met. A RHC visit must be furnished in accordance with the applicable regulations at 42 CFR Part 405 Subpart X, including 42 CFR 405.2463 that describes what constitutes a visit. For additional information on RHC policies and requirements, see the “Medicare Benefit Policy Manual,” Chapter 13. 
+
+## Services and Supplies Furnished “Incident to” Physician’s Services 
+Services and supplies that are an integral, though incidental, part of a physician’s professional service are referred to as “incident to.” Incident to services and supplies include drugs and biologicals that are not usually self-administered, and Medicare-covered preventive injectable drugs (e.g., influenza, pneumococcal); venipuncture; bandages, gauze, oxygen, and other supplies; or assistance by auxiliary personnel such as a nurse, medical assistant, or anyone acting under the supervision of the physician. All services and supplies furnished incident to a physician’s visit must result from the patient’s encounter with the physician and be furnished in a medically appropriate timeframe. When services and supplies are furnished incidental to a RHC visit and billed on a RHC claim, payment for the services are packaged/bundled into the AIR. An encounter that includes only an incident to service(s) is not a stand-alone billable visit for RHCs.
+
+```csvtable
+source: HIMT/Rural Health Clinics/RHC_QVL.csv
+sortBy: HCPCS
+```

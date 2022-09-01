@@ -1,0 +1,69 @@
+{
+  "userAdmonitions": {
+    "Info": {
+      "type": "Info",
+      "color": "0, 17, 255",
+      "icon": {
+        "name": "bell",
+        "type": "rpg"
+      },
+      "command": false
+    },
+    "billing": {
+      "type": "billing",
+      "color": "255, 111, 0",
+      "icon": {
+        "name": "money-bill-wave",
+        "type": "font-awesome"
+      },
+      "command": false
+    },
+    "Example": {
+      "type": "Example",
+      "color": "0, 133, 46",
+      "icon": {
+        "name": "chalkboard-teacher",
+        "type": "font-awesome"
+      },
+      "command": false
+    },
+    "Law": {
+      "type": "Law",
+      "color": "200, 255, 0",
+      "icon": {
+        "name": "capitol",
+        "type": "rpg"
+      },
+      "command": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": true,
+  "version": "9.0.3",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [
+    "rpg"
+  ],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": true,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.ef2586",
+  "syncLinks": true,
+  "allowMSSyntax": true,
+  "msSyntaxIndented": true,
+  "livePreviewMS": true,
+  "warnedAboutNC": true,
+  "enableMarkdownProcessor": true
+}

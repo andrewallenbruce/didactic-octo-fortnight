@@ -1,0 +1,102 @@
+{
+  "aestheticStyle": "default",
+  "menuCommands": [
+    {
+      "id": "cmenu-plugin:editor:toggle-bold",
+      "name": "cMenu: Toggle bold",
+      "icon": "bold-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-italics",
+      "name": "cMenu: Toggle italics",
+      "icon": "italic-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-strikethrough",
+      "name": "cMenu: Toggle strikethrough",
+      "icon": "strikethrough-glyph"
+    },
+    {
+      "id": "cmenu-plugin:underline",
+      "name": "cMenu: Toggle underline",
+      "icon": "underline-glyph"
+    },
+    {
+      "id": "cmenu-plugin:superscript",
+      "name": "cMenu: Toggle superscript",
+      "icon": "superscript-glyph"
+    },
+    {
+      "id": "cmenu-plugin:subscript",
+      "name": "cMenu: Toggle subscript",
+      "icon": "subscript-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-code",
+      "name": "cMenu: Toggle code",
+      "icon": "code-glyph"
+    },
+    {
+      "id": "cmenu-plugin:codeblock",
+      "name": "cMenu: Toggle codeblock",
+      "icon": "codeblock-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-blockquote",
+      "name": "cMenu: Toggle blockquote",
+      "icon": "quote-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-bullet-list",
+      "name": "cMenu: Toggle bullet",
+      "icon": "bullet-list-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-highlight",
+      "name": "cMenu: Toggle highlight",
+      "icon": "highlight-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-checklist-status",
+      "name": "cMenu: Toggle checklist status",
+      "icon": "checkbox-glyph"
+    },
+    {
+      "id": "editor:open-search",
+      "name": "Search current file",
+      "icon": "search-glyph",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "F"
+        }
+      ]
+    },
+    {
+      "id": "global-search:open",
+      "name": "Search: Search in all files",
+      "icon": "search-glyph",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift"
+          ],
+          "key": "F"
+        }
+      ]
+    },
+    {
+      "id": "search-on-internet:search-on-internet",
+      "name": "Search on Internet: Perform search",
+      "icon": "popup-open"
+    }
+  ],
+  "appendMethod": "workspace",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": false,
+  "cMenuBottomValue": 5.25,
+  "cMenuNumRows": 18
+}

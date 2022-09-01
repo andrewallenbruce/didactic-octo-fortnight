@@ -1,0 +1,7 @@
+{
+  "useFrontmatterHighlight": true,
+  "usePathHighlight": true,
+  "frontmatterAttribute": "classification",
+  "valueToHighlight": "public",
+  "pathToHighlight": ""
+}

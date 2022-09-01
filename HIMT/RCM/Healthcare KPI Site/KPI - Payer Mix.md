@@ -1,0 +1,16 @@
+# KPI: Payer Mix Ratio
+## Data Required
+[[Data - Client]]
+[[Data - Rendering Provider]]
+[[Data - Referring Provider]]
+[[Data - No of Encounters]]
+[[Data - Encounter DOS]]
+[[Data - Insurance Name]]
+[[Data - Insurance Type]]
+[[Data - Insurance Plan Type]]
+[[Data - Gross Charges]]
+[[Data - Allowed Charges]]
+[[Data - Patient Responsibility]]
+[[Data - wRVUs]]
+[[Data - Patient ID]]
+[[Data - Patient DOB]]

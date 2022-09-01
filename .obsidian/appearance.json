@@ -1,0 +1,10 @@
+{
+  "baseFontSize": 14,
+  "translucency": false,
+  "theme": "obsidian",
+  "cssTheme": "Prism",
+  "enabledCssSnippets": [
+    "supercharged-links-gen"
+  ],
+  "interfaceFontFamily": ""
+}
