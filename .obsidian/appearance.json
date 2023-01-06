@@ -1,10 +1,14 @@
 {
   "baseFontSize": 14,
   "translucency": false,
-  "theme": "obsidian",
-  "cssTheme": "Prism",
+  "theme": "moonstone",
+  "cssTheme": "Big Sur Aesthetic",
   "enabledCssSnippets": [
     "supercharged-links-gen"
   ],
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "Fira Code",
+  "monospaceFontFamily": "Fira Code",
+  "textFontFamily": "Fira Code",
+  "accentColor": "",
+  "nativeMenus": false
 }

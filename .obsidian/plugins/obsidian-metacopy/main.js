@@ -81,8 +81,8 @@ var en_us_default = {
   menuBehaviorDesc: "Enable : require a configured key to enable the menu",
   keyMenu: "Key menu",
   keyMenuDesc: "The key used to disable/enable the metacopy file menu",
-  useFrontMatterTitle: "Use frontmatter title",
-  useFrontMatterTitleDesc: 'Use frontmatter "title" field instead of the file name.',
+  useFrontMatterTitle: "Use frontmatter key as title",
+  useFrontMatterTitleDesc: "Use a frontmatter field instead of the file name.",
   metadataMessage: (key) => `Metadata key "${key}" copied to the clipboard.`,
   metadataMessageURL: "URL send to the clipboard."
 };
@@ -114,8 +114,8 @@ var fr_fr_default = {
   menuBehaviorDesc: "Activer : n\xE9cessite une cl\xE9 configur\xE9e pour activer le menu",
   keyMenu: "Cl\xE9 du menu",
   keyMenuDesc: "La cl\xE9 utilis\xE9e pour d\xE9sactiver/activer le menu du fichier Metacopy.",
-  useFrontMatterTitle: 'Utiliser la cl\xE9 de m\xE9tadonn\xE9e "title"',
-  useFrontMatterTitleDesc: 'Utiliser la cl\xE9 de m\xE9tadonn\xE9e "title" (au lieu du nom du fichier) pour cr\xE9er le lien.',
+  useFrontMatterTitle: "Utiliser une cl\xE9 frontmatter pour le titre",
+  useFrontMatterTitleDesc: "Utiliser une cl\xE9 de m\xE9tadonn\xE9e en tant que titre (au lieu du nom du fichier) pour cr\xE9er le lien.",
   metadataMessage: (key) => `Cl\xE9 de m\xE9tadonn\xE9e "${key}" copi\xE9e dans le presse-papier`,
   metadataMessageURL: "URL envoy\xE9 dans le presse-papier"
 };
@@ -140,7 +140,8 @@ var DEFAULT_SETTINGS = {
   folderNote: false,
   defaultKeyLink: "",
   behaviourLinkCreator: "categoryKey",
-  useFrontMatterTitle: false
+  useFrontMatterTitle: false,
+  frontmattertitleKey: "title"
 };
 var CopySettingsTabs = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
@@ -207,13 +208,22 @@ var CopySettingsTabs = class extends import_obsidian2.PluginSettingTab {
         yield this.plugin.saveSettings();
       }));
     });
-    new import_obsidian2.Setting(containerEl).setName(t("useFrontMatterTitle")).setDesc(t("useFrontMatterTitleDesc")).addToggle((toggle) => {
+    const titleSettings = new import_obsidian2.Setting(containerEl).setName(t("useFrontMatterTitle")).setDesc(t("useFrontMatterTitleDesc")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.useFrontMatterTitle);
       toggle.onChange((value) => __async(this, null, function* () {
         this.plugin.settings.useFrontMatterTitle = value;
         yield this.plugin.saveSettings();
+        this.display();
       }));
     });
+    if (this.plugin.settings.useFrontMatterTitle) {
+      titleSettings.addText((text) => {
+        text.setPlaceholder("title").setValue(this.plugin.settings.frontmattertitleKey).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.frontmattertitleKey = value.trim();
+          yield this.plugin.saveSettings();
+        }));
+      });
+    }
     if (this.plugin.settings.behaviourLinkCreator === "fixedFolder") {
       hideSettings(folderNoteSettings);
     } else {
@@ -305,8 +315,7 @@ function getMeta(app, file, settings) {
 function checkMeta(app, settings) {
   const file = app.workspace.getActiveFile();
   const meta = getMeta(app, file, settings);
-  let checkKey = false;
-  checkKey = (meta == null ? void 0 : meta.key) === "DefaultKey" || (meta == null ? void 0 : meta.key) === "Copy link";
+  const checkKey = (meta == null ? void 0 : meta.key) === "DefaultKey" || (meta == null ? void 0 : meta.key) === "Copy link";
   return !!file && checkKey;
 }
 function getAllMeta(app, file, settings) {
@@ -327,7 +336,7 @@ function getAllMeta(app, file, settings) {
     value: metaValue[i]
   }));
   mappedListKey = JSON.parse(JSON.stringify(mappedListKey));
-  Object.entries(mappedListKey).forEach(([k, v]) => {
+  Object.entries(mappedListKey).forEach(([, v]) => {
     if (v.value === void 0) {
       mappedListKey.remove(v);
     }
@@ -348,15 +357,18 @@ function createLink(file, settings, metaCopy, app) {
   let url = metaCopy.value;
   const folderPath = checkSlash(url).replace(/(^\/|\/$)/, "");
   const folder = folderPath.split("/").slice(-1)[0];
+  const meta = (_a = app.metadataCache.getFileCache(file)) == null ? void 0 : _a.frontmatter;
   if (settings) {
     let baseLink = settings.baseLink;
+    if (meta && meta["baselink"] !== void 0) {
+      baseLink = meta["baselink"];
+    }
     baseLink = checkSlash(baseLink);
     const folderNote = settings.folderNote;
     let fileName = file.name.replace(".md", "");
     if (settings.useFrontMatterTitle) {
-      const meta = (_a = app.metadataCache.getFileCache(file)) == null ? void 0 : _a.frontmatter;
-      if (meta && meta["title"] && meta["title"] !== file.name) {
-        fileName = meta["title"];
+      if (meta && meta[settings.frontmattertitleKey] && meta[settings.frontmattertitleKey] !== file.name) {
+        fileName = meta[settings.frontmattertitleKey];
       }
     }
     if (settings.behaviourLinkCreator === "categoryKey") {
@@ -392,7 +404,7 @@ function createLink(file, settings, metaCopy, app) {
 function getValue(app, file, settings) {
   return __async(this, null, function* () {
     const meta = getMeta(app, file, settings);
-    if (!meta) {
+    if (!meta || meta.value === void 0) {
       return false;
     }
     let value = meta.value.toString();

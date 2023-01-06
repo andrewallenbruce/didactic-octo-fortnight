@@ -1,9 +1,4 @@
 {
-  "shimmering-focus@@show-titlebar": false,
-  "shimmering-focus@@show-ribbons": true,
-  "shimmering-focus@@default-statusbar": false,
-  "shimmering-focus@@show-close-button": false,
   "CodeMirror Options@@cm-theme-selection": "cm-theme-material-palenight",
-  "CodeMirror Options@@cm5-minimal-embeds": true,
-  "shimmering-focus@@block-cursor": true
+  "CodeMirror Options@@cm5-minimal-embeds": true
 }

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b4d7fe71b6ec09f6",
+        "id": "0406e22c00b61952",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -100,7 +100,7 @@
                   "repelStrength": 9.55923229649239,
                   "linkStrength": 0.715287888815354,
                   "linkDistance": 30,
-                  "scale": 0.047360667917616193,
+                  "scale": 0.11660890377043259,
                   "close": true
                 }
               }
@@ -179,24 +179,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 209,
+    "width": 636.77099609375,
     "collapsed": true
   },
-  "active": "b4d7fe71b6ec09f6",
+  "active": "0406e22c00b61952",
   "lastOpenFiles": [
-    "R/defogger Package.md",
+    "R/provider Package.md",
     "R/forager Package.md",
     "R/Package Development.md",
-    "Home.md",
-    "HIMT/2021 AAPC CDEI Course/CDEI Chapter 1 Quiz + Review.md",
-    "HIMT/Glossary/Modifier.md",
-    "HIMT/RCM/Coding/Modifiers/33 - Preventive Services.md",
-    "HIMT/RCM/Coding/Modifiers/32 - Mandated Services.md",
-    "HIMT/RCM/Coding/Modifiers/26 - Professional Component.md",
-    "INBOX/Moore Ideas.md"
+    "R/defogger Package.md",
+    "HIMT/2022 Denials Resolution Course/LCT 3 Denial Resolution Case Studies.md",
+    "HIMT/2022 Denials Resolution Course/LCT 2 CMS 1500 and EOBs.md",
+    "HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md",
+    "R Packages.md",
+    "HIMT/Glossary/Exclusive Provider Organization.md",
+    "HIMT/Glossary/Criminal Healthcare Fraud Act.md"
   ]
 }

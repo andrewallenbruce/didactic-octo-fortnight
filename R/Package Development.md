@@ -1,21 +1,63 @@
 ---
 created: 2022-08-05T23:58:33-04:00
-updated: 2022-08-30T17:23:53-04:00
+updated: 2022-10-25T09:17:36-04:00
 ---
 
-# Links
-[PIPING HOT DATA: Your first R package in 1 hour](https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/)
+# Packages
+
+```cardlink
+url: https://github.com/andrewallenbruce/defogger
+title: "GitHub - andrewallenbruce/defogger: Streamlined Workflow for Transparency in Coverage (TiC) Data Analysis"
+description: "Streamlined Workflow for Transparency in Coverage (TiC) Data Analysis - GitHub - andrewallenbruce/defogger: Streamlined Workflow for Transparency in Coverage (TiC) Data Analysis"
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://repository-images.githubusercontent.com/528687291/25668396-35ac-45d5-97cd-edc406170b13
+```
+
+
+
+```cardlink
+url: https://github.com/andrewallenbruce/forager
+title: "GitHub - andrewallenbruce/forager: Healthcare Revenue Cycle Analysis Suite"
+description: "Healthcare Revenue Cycle Analysis Suite. Contribute to andrewallenbruce/forager development by creating an account on GitHub."
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://repository-images.githubusercontent.com/528716264/afaf256b-531d-45db-a3e9-de19eb285061
+```
+
+
+
+```cardlink
+url: https://github.com/andrewallenbruce/provider
+title: "GitHub - andrewallenbruce/provider: Public Healthcare Provider Data Access"
+description: "Public Healthcare Provider Data Access. Contribute to andrewallenbruce/provider development by creating an account on GitHub."
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://repository-images.githubusercontent.com/530927687/16cf9533-07da-4965-b969-4bae9d624ff3
+```
+
+
+## Links
+[rOpenSci | How to create your personal CRAN-like repository on R-universe](https://ropensci.org/blog/2021/06/22/setup-runiverse/)
+[PIPING HOT DATA: Your first [[R]] package in 1 hour](https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/)
 [Chapter 1 Packaging Guide | rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/building.html)
-[GitHub - GuangchuangYu/badger: Badge for R Package](https://github.com/GuangchuangYu/badger)
+[GitHub - GuangchuangYu/badger: Badge for [[R]] Package](https://github.com/GuangchuangYu/badger)
+[Deploy your bookdown project to Netlify with Github Actions | Emil Hvitfeldt](https://www.emilhvitfeldt.com/post/bookdown-netlify-github-actions/)
+[usethis workflow for package development | Emil Hvitfeldt](https://www.emilhvitfeldt.com/post/2018-09-02-usethis-workflow-for-package-development/)
 
 ## Functional Programming
 [Vishal Katti: Writing Robust R Functions](https://www.vishalkatti.com/posts/2022-01-18-writingrobustrfunctions/)
+[Purrr - tips and tricks | Emil Hvitfeldt](https://www.emilhvitfeldt.com/post/2018-01-08-purrr-tips-and-tricks/)
 [GitHub - stenhaug/purrrplus: R package that expands the functionality of purrr by executing functions safely while maintaining the structure of a data frame](https://github.com/stenhaug/purrrplus)
 [GitHub - elbersb/tidylog: Tidylog ](https://github.com/elbersb/tidylog)
-[Rowwise Operations on Data Frames With purrr’s pmap() Function in R](https://thatdatatho.com/rowwise-operations-data-frames-purrr-pmap-r/)
+[Rowwise Operations on Data Frames With purrr’s pmap() [[Function]] in R](https://thatdatatho.com/rowwise-operations-data-frames-purrr-pmap-r/)
 [Food Markets in New York](https://jennybc.github.io/purrr-tutorial/ex26_ny-food-market-json.html)
 [GitHub - emitanaka/chainr: Link data frames as a chain](https://github.com/emitanaka/chainr)
 [GitHub - emitanaka/nestr: An R-package to build nesting or hierarchical structures](https://github.com/emitanaka/nestr)
+[Function reference • scrutiny](https://lhdjung.github.io/scrutiny/reference/index.html)
+[Chapter 7 Defining your own functions | Modern R with the tidyverse](https://modern-rstats.eu/defining-your-own-functions.html#functions-that-take-columns-of-data-as-arguments)
+[Making Multi-Argument Functions & Data Frames Purrr | Amber Thomas Data Portfolio & Blog](https://amber.rbind.io/2018/03/26/purrr/)
+[10 Map with multiple inputs | Functional Programming](https://dcl-prog.stanford.edu/purrr-parallel.html)
 
 ## Arrow, duckdb, parquet, feather
 [GitHub - jthomasmock/arrow-dplyr: A quick lightning talk on using arrow and dplyr together](https://github.com/jthomasmock/arrow-dplyr)
@@ -26,24 +68,42 @@ updated: 2022-08-30T17:23:53-04:00
 [Package Development Documentation and Namespace Management • sinew](https://yonicd.github.io/sinew/index.html)
 [usethis for reporting | Sharla Gelfand](https://sharla.party/post/usethis-for-reporting/)
 [awesome-r-pkgtools/README.md at main · IndrajeetPatil/awesome-r-pkgtools · GitHub](https://github.com/IndrajeetPatil/awesome-r-pkgtools/blob/main/README.md)
+[How to write your own R package and publish it on CRAN | Methods Bites](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/r-package/)
 
 ## Package Testing
 [Introduction to snapshot testing in R](https://indrajeetpatil.github.io/intro-to-snapshot-testing/#/further-reading)
+[Refactoring Tests | Emil Hvitfeldt](https://www.emilhvitfeldt.com/post/2019-11-25-refactoring-tests/)
 
 ## APIs in R Tutorials
 [[How to] Build an API wrapper package in 10 minutes. - Colin Fay](https://colinfay.me/build-api-wrapper-package-r/)
 [Best practices for API packages](https://cran.r-project.org/web/packages/httr/vignettes/api-packages.html)
-[GitHub - dmi3kno/polite: Be nice on the web](https://github.com/dmi3kno/polite)
+
+```cardlink
+url: https://github.com/dmi3kno/polite
+title: "GitHub - dmi3kno/polite: Be nice on the web"
+description: "Be nice on the web. Contribute to dmi3kno/polite development by creating an account on GitHub."
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://repository-images.githubusercontent.com/141985119/83196a80-136f-11ea-96b8-56ecd190306f
+```
+
 
 ## Similar Packages
 [GitHub - elipousson/getdata: 📍🌎 A R package to get location data from a variety of open sources](https://github.com/elipousson/getdata)
+[GitHub - frankfarach/npi: Access the U.S. [[National Provider Identifier]] (NPI) Registry Public Search API](https://github.com/frankfarach/npi)
+
+## RStudio Addins
+[https://rstudio.github.io/rstudioaddins/](https://rstudio.github.io/rstudioaddins/)
+
 
 ## Tables
 [The MockUp - gt cookbook - advanced](https://themockup.blog/static/resources/gt-cookbook-advanced.html)
 [Applies Display Metadata To Analysis Results Datasets • tfrmt](https://gsk-biostatistics.github.io/tfrmt/index.html)
+[Using {gt}, {gtExtras} and {openair} to present air quality monitoring data](https://jack-davison.quarto.pub/gt-openair/)
+[Making beautiful tables with the `gt` package | Dr. Liam D. Bailey](https://www.liamdbailey.com/post/making-beautiful-tables-with-gt/)
 
 ## Data Wrangling
-[Rectangling • tidyr](https://tidyr.tidyverse.org/articles/rectangle.html)
+[Rectangling • [[tidyr]]](https://tidyr.tidyverse.org/articles/rectangle.html)
 [Tony: Converting nested JSON to a tidy data frame with R](https://itsmetoeknee.netlify.app/post/nested-json-to-tidy-data-frame-r/)
 [The MockUp - Easily parsing JSON in R with jsonlite and purrr](https://themockup.blog/posts/2020-05-22-parsing-json-in-r-with-jsonlite/)
 [Food Markets in New York](https://jennybc.github.io/purrr-tutorial/ex26_ny-food-market-json.html)
@@ -51,20 +111,21 @@ updated: 2022-08-30T17:23:53-04:00
 ## Public Healthcare APIs
 [Clinical Table Search Service](https://clinicaltables.nlm.nih.gov/)
 [Centers for Medicare & Medicaid Services Data](https://data.cms.gov/api-docs)
-[Getting Started with HIPAASpace Web API | HIPAASpace Data API | www.HIPAASpace.com © 2022](https://www.hipaaspace.com/medical_web_services/medical_coding_web_services.aspx)
+[Getting Started with HIPAASpace Web API](https://www.hipaaspace.com/medical_web_services/medical_coding_web_services.aspx)
 	WEB SERVICE SECURITY TOKEN: **436D99EA57BA4705858F5C1F61C1B21E7120609BEE8B458BA9E9F4079BD3B7AF**
 
 [Google Drive: Sign-in](https://drive.google.com/drive/u/0/folders/1o7tQJhXESvIlkXX5NKinQWh-wrSSRiYv)
 
 ## Vignettes
 [High Performance CommonMark and Github Markdown Rendering in R • commonmark](https://docs.ropensci.org/commonmark/)
+[rOpenSci | How to precompute package vignettes or pkgdown articles](https://ropensci.org/blog/2019/12/08/precompute-vignettes/)
 
 ## Relevant to Package Purpose
 [The New Price Transparency Laws And Turquoise Health | Out-Of-Pocket](https://www.outofpocket.health/p/the-new-price-transparency-laws-and-turquoise-health)
 [Provider Directories, Physician data, and Ribbon Health | Out-Of-Pocket](https://www.outofpocket.health/p/provider-directories-physician-data-and-ribbon-health)
 [National Provider Identifier - Wikipedia](https://en.wikipedia.org/wiki/National_Provider_Identifier)
 [https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/NationalProvIdentStand/Downloads/NPIcheckdigit.pdf](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/NationalProvIdentStand/Downloads/NPIcheckdigit.pdf)
-[Luhn algorithm - Wikipedia](https://en.wikipedia.org/wiki/Luhn_algorithm)
+[Luhn [[algorithm]] - Wikipedia](https://en.wikipedia.org/wiki/Luhn_algorithm)
 [GitHub - adamjdeacon/checkLuhn: Checks if a number is valid per the luhn algorithm](https://github.com/adamjdeacon/checkLuhn)
 
 ## Regex
@@ -75,7 +136,7 @@ updated: 2022-08-30T17:23:53-04:00
 
 
 # Awesome R package development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/)
-[GitHub - erikgahner/awesome-ggplot2: A curated list of awesome ggplot2 tutorials, packages etc.](https://github.com/erikgahner/awesome-ggplot2)
+[GitHub - erikgahner/awesome-[[ggplot2]]: A curated list of awesome ggplot2 tutorials, packages etc.](https://github.com/erikgahner/awesome-ggplot2)
 
 # Swiss army knives 🛠
 

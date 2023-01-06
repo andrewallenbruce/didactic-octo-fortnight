@@ -118,6 +118,195 @@ var HelpFunctions = class {
       }
     });
   }
+  renderTimelineMonth(content) {
+    return __async(this, null, function* () {
+      const dv = (0, import_obsidian_dataview.getAPI)();
+      if (typeof dv == "undefined") {
+        return this.createErrorMsg("Dataview is not installed. The Release Timeline plugin requires Dataview to properly function.");
+      }
+      var sortOrder = this.parseQuerySortOrder(content);
+      try {
+        var results;
+        var results0 = yield dv.query(content);
+        let a = results0.value.values;
+        let b = a.filter((x) => typeof x[1] !== "undefined" && x[1] !== null);
+        b = b.filter((x) => !(typeof x[1] == "number" && x[1] >= 0 && x[1] <= 9999));
+        b.forEach((x) => x[1] = (0, import_obsidian.moment)(x[1].toString()).format("YYYY-MM"));
+        b = b.filter((x) => x[1] != "Invalid date");
+        b.forEach((x) => x[0] = x[0].path.match(/([^\/]+(?=\.)).md/)[1]);
+        b.forEach((x) => x[2] == null ? x[2] = x[0] : 1);
+        let monthGroup = [];
+        for (let i = 0; i < b.length; i++) {
+          let item = b[i][1];
+          const ind = monthGroup.findIndex((e) => e.yearMonth === item);
+          if (ind > -1) {
+            monthGroup[ind].values.push([b[i][0], b[i][2]]);
+          } else {
+            monthGroup.push({ "yearMonth": item, "values": [[b[i][0], b[i][2]]] });
+          }
+        }
+        let yearMonthGroup = [];
+        for (let j = 0; j < monthGroup.length; j++) {
+          let item = monthGroup[j].yearMonth.substring(0, 4);
+          const ind = yearMonthGroup.findIndex((e) => e.year === item);
+          if (ind > -1) {
+            yearMonthGroup[ind].months.push(monthGroup[j]);
+          } else {
+            yearMonthGroup.push({ "year": item, "months": [monthGroup[j]] });
+          }
+        }
+        results = sortOrder == "asc" ? yearMonthGroup.sort((a2, b2) => Number(a2.year) - Number(b2.year)) : yearMonthGroup.sort((a2, b2) => Number(b2.year) - Number(a2.year));
+      } catch (error) {
+        return this.createErrorMsg("Error from dataview: " + error.message);
+      }
+      if (results.length == 0) {
+        return this.createErrorMsg("No results");
+      } else {
+        return this.createTimelineTableMonth(results, sortOrder);
+      }
+    });
+  }
+  createTimelineTableMonth(timeline, sortOrder) {
+    const newTbl = document.createElement("table");
+    newTbl.classList.add("release-timeline");
+    let newTbody = document.createElement("tbody");
+    let isLongRow = 0;
+    let prevYearExists = false;
+    let nextYearExists = timeline[1] !== void 0 ? true : false;
+    let nextYear = timeline[1] == void 0 ? void 0 : Number(timeline[1].year);
+    timeline.forEach((item, index) => {
+      nextYearExists = timeline[index + 1] !== void 0 ? true : false;
+      nextYear = timeline[index + 1] == void 0 ? void 0 : Number(timeline[index + 1].year);
+      newTbody = this.renderYearMonth(item, prevYearExists, nextYearExists, nextYear, newTbody, sortOrder);
+      prevYearExists = true;
+    });
+    newTbl.appendChild(newTbody);
+    return newTbl;
+  }
+  renderYearMonth(item, prevYearExists, nextYearExists, nextYear, newTbody, sortOrder) {
+    newTbody.appendChild(this.createRowSeparatorYearMonth("no-border"));
+    let currentYear = item.year;
+    if (sortOrder == "desc") {
+      var firstMonth = import_obsidian.moment.max(...item.months.map((o) => (0, import_obsidian.moment)(o.yearMonth)));
+      var lastMonth = import_obsidian.moment.min(...item.months.map((o) => (0, import_obsidian.moment)(o.yearMonth)));
+    } else if (sortOrder == "asc") {
+      var firstMonth = import_obsidian.moment.min(...item.months.map((o) => (0, import_obsidian.moment)(o.yearMonth)));
+      var lastMonth = import_obsidian.moment.max(...item.months.map((o) => (0, import_obsidian.moment)(o.yearMonth)));
+    }
+    if (prevYearExists) {
+      if (sortOrder == "asc" && firstMonth.format("MM") != "01") {
+        firstMonth = (0, import_obsidian.moment)([currentYear, 0]);
+      }
+      if (sortOrder == "desc" && firstMonth.format("MM") != "12") {
+        firstMonth = (0, import_obsidian.moment)([currentYear, 11]);
+      }
+    }
+    ;
+    if (nextYearExists) {
+      if (sortOrder == "asc" && lastMonth.format("MM") != "12") {
+        lastMonth = (0, import_obsidian.moment)([currentYear, 11]);
+      }
+      if (sortOrder == "desc" && lastMonth.format("MM") != "01") {
+        lastMonth = (0, import_obsidian.moment)([currentYear, 0]);
+      }
+    }
+    ;
+    let nbRows = Math.abs(firstMonth.diff(lastMonth, "months")) + 1;
+    for (let q = 0; q < item.months.length; q++) {
+      if (item.months[q].values.length > 1) {
+        nbRows += item.months[q].values.length - 1;
+      }
+    }
+    nbRows += 1;
+    let monthDiff = Math.abs(firstMonth.diff(lastMonth, "months"));
+    let iterator = sortOrder == "asc" ? 1 : -1;
+    let isLongRow0 = false;
+    let ii = (0, import_obsidian.moment)(firstMonth);
+    for (let qq = 0; qq <= monthDiff; qq++) {
+      let ind2 = item.months.findIndex((e) => e.yearMonth === ii.format("YYYY-MM"));
+      if (isLongRow0) {
+        nbRows += 1;
+      }
+      ;
+      if (ind2 > -1) {
+        isLongRow0 = false;
+        if (item.months[ind2].values.length == 1) {
+        } else {
+          if (qq != 0) {
+            nbRows += 1;
+          }
+          ;
+          isLongRow0 = true;
+        }
+      } else {
+        isLongRow0 = false;
+      }
+      ii.add(iterator, "months");
+    }
+    ;
+    let yearRow = this.createRowYear({ val: currentYear, cls: "year-header", rowspanNb: nbRows });
+    const newYearRow = this.createNewRow(yearRow);
+    newTbody.appendChild(newYearRow);
+    let i = (0, import_obsidian.moment)(firstMonth);
+    let isLongRow = false;
+    for (let q = 0; q <= monthDiff; q++) {
+      let ind = item.months.findIndex((e) => e.yearMonth === i.format("YYYY-MM"));
+      if (isLongRow) {
+        newTbody.appendChild(this.createRowSeparator());
+      }
+      ;
+      if (ind > -1) {
+        isLongRow = false;
+        if (item.months[ind].values.length == 1) {
+          const rowYear = this.createRowYear({ val: i.format("MMM"), cls: "year-existing", rowspanNb: 1 });
+          const rowItem = this.createRowItem({ fileName: item.months[ind].values[0][0], fileAlias: item.months[ind].values[0][1] });
+          const newRow = this.createNewRow(rowYear, rowItem);
+          newTbody.appendChild(newRow);
+        } else {
+          if (q != 0) {
+            newTbody.appendChild(this.createRowSeparator());
+          }
+          ;
+          isLongRow = true;
+          const rowYear = this.createRowYear({ val: i.format("MMM"), cls: "year-existing", rowspanNb: item.months[ind].values.length });
+          const rowItem = this.createRowItem({ fileName: item.months[ind].values[0][0], fileAlias: item.months[ind].values[0][1], cls: "td-first" });
+          const newRow = this.createNewRow(rowYear, rowItem);
+          newTbody.appendChild(newRow);
+          for (let j = 1; j < item.months[ind].values.length; j++) {
+            const rowItem2 = this.createRowItem({ fileName: item.months[ind].values[j][0], fileAlias: item.months[ind].values[j][1], cls: "td-next" });
+            const newRow2 = this.createNewRow(rowItem2);
+            newTbody.appendChild(newRow2);
+          }
+        }
+      } else {
+        isLongRow = false;
+        const rowYear = this.createRowYear({ val: i.format("MMM"), cls: "year-nonexisting" });
+        const rowItem = this.createRowItem({ fileName: "", fileAlias: "" });
+        const newRow = this.createNewRow(rowYear, rowItem);
+        newTbody.appendChild(newRow);
+      }
+      i.add(iterator, "months");
+    }
+    let yearDiff2 = Math.abs(Number(currentYear) - nextYear);
+    if (nextYearExists) {
+      newTbody.appendChild(this.createRowSeparatorYearMonth("border"));
+    } else {
+      newTbody.appendChild(this.createRowSeparatorYearMonth("no-border"));
+    }
+    if (nextYearExists && yearDiff2 > 1) {
+      newTbody.appendChild(this.createRowSeparatorYearMonth("no-border"));
+      for (let j = 1; j < yearDiff2; j++) {
+        let i2 = sortOrder == "asc" ? Number(currentYear) + j : Number(currentYear) - j;
+        const rowYear0 = this.createRowYear({ val: "", cls: "year-header" });
+        const rowYear1 = this.createRowYear({ val: i2, cls: "year-nonexisting" });
+        const rowItem2 = this.createRowItem({ fileName: "", fileAlias: "" });
+        const newRow3 = this.createNewRow(rowYear0, rowYear1, rowItem2);
+        newTbody.appendChild(newRow3);
+      }
+      newTbody.appendChild(this.createRowSeparatorYearMonth("border"));
+    }
+    return newTbody;
+  }
   createTimelineTable(timeline) {
     const newTbl = document.createElement("table");
     newTbl.classList.add("release-timeline");
@@ -130,9 +319,9 @@ var HelpFunctions = class {
       return errorTbl;
     }
     ;
-    let prevYear = timeline[0].key;
+    let prevYear = Number(timeline[0].key);
     timeline.forEach((item) => {
-      let key = item.key;
+      let key = Number(item.key);
       let value = item.rows.values.map((k) => [k[0], k[2]]);
       if (isLongRow == 1) {
         newTbody.appendChild(this.createRowSeparator());
@@ -191,11 +380,27 @@ var HelpFunctions = class {
     newTbl.appendChild(newTbody);
     return newTbl;
   }
-  createRowSeparator() {
+  createRowSeparator({ cls } = {}) {
     const newTdSeparator = createEl("td", { cls: "td-separator" });
+    if (typeof cls !== "undefined") {
+      newTdSeparator.setAttribute("class", cls);
+    }
+    ;
     const rowSeparator = createEl("tr");
     rowSeparator.appendChild(newTdSeparator);
     return rowSeparator;
+  }
+  createRowSeparatorYearMonth(type) {
+    const newTdSeparator1 = createEl("td", { cls: "td-separator" });
+    const newTdSeparator2 = createEl("td", { cls: "td-separator" });
+    const newTdSeparator3 = createEl("td", { cls: "td-separator" });
+    if (type == "border") {
+      newTdSeparator1.setAttribute("class", "line-separator");
+      newTdSeparator2.setAttribute("class", "line-separator");
+      newTdSeparator3.setAttribute("class", "line-separator");
+    }
+    const newRow = this.createNewRow(newTdSeparator1, newTdSeparator2, newTdSeparator3);
+    return newRow;
   }
   createRowYear({ val, cls, rowspanNb } = {}) {
     const newTh = createEl("th", { text: val });
@@ -315,6 +520,15 @@ var ReleaseTimeline = class extends import_obsidian3.Plugin {
       this.addSettingTab(new SampleSettingTab(this.app, this));
       this.registerMarkdownCodeBlockProcessor("release-timeline", (content, el, ctx) => __async(this, null, function* () {
         let timelineTable = yield this.HelpFunctions.renderTimeline(content);
+        el.appendChild(timelineTable);
+        let bulletOption = this.settings.bulletPoints;
+        let matches = el.querySelectorAll(".td-first, .td-next");
+        matches.forEach(function(match) {
+          match.classList.toggle("bullet-points", bulletOption);
+        });
+      }));
+      this.registerMarkdownCodeBlockProcessor("release-timeline-month", (content, el, ctx) => __async(this, null, function* () {
+        let timelineTable = yield this.HelpFunctions.renderTimelineMonth(content);
         el.appendChild(timelineTable);
         let bulletOption = this.settings.bulletPoints;
         let matches = el.querySelectorAll(".td-first, .td-next");

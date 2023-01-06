@@ -1,0 +1,7 @@
+{
+  "layoutEngine": "elk",
+  "debounce": 500,
+  "theme": 0,
+  "apiToken": "",
+  "d2Path": "/usr/local/lib"
+}

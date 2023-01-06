@@ -18,11 +18,11 @@
     "incentivizing",
     "uncollectible"
   ],
-  "readableLineLength": true,
+  "readableLineLength": false,
   "foldHeading": true,
   "attachmentFolderPath": "Assets/Attachments",
   "foldIndent": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "showUnsupportedFiles": true,
   "communityThemeSortOrder": "alphabetical",
   "legacyEditor": false,

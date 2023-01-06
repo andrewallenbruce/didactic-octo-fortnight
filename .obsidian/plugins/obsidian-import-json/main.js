@@ -20988,10 +20988,10 @@ var JsonImport = class extends import_obsidian.Plugin {
     return name.replace(regexp, "_");
   }
   hb_table() {
-    if (!arguments[0])
-      return arguments[0];
     if (arguments.length < 4)
       return "";
+    if (arguments[0] == void 0 || arguments[0] == null)
+      return arguments[0];
     let len = arguments.length - 1;
     let options = arguments[len];
     let value2 = arguments[0].toString();

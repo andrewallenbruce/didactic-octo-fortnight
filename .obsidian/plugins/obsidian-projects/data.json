@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "id": "a5dbe7dc-d7e5-4231-b124-44a1a7ac9da1",
+      "name": "R",
+      "path": "R",
+      "recursive": false,
+      "defaultName": "",
+      "templates": [
+        ""
+      ],
+      "views": [
+        {
+          "id": "81e1ff1c-9d5c-4c56-ae61-f2a55935de59",
+          "name": "Table",
+          "type": "table",
+          "config": {}
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

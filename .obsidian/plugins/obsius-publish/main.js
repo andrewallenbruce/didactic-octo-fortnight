@@ -65,7 +65,7 @@ var __async = (__this, __arguments, generator) => {
 __export(exports, {
   default: () => ObsiusPlugin
 });
-var import_obsidian = __toModule(require("obsidian"));
+var import_obsidian2 = __toModule(require("obsidian"));
 
 // src/http.ts
 function http_default(method, url, data = null) {
@@ -114,6 +114,9 @@ function createClient(loadData, saveData) {
   return __async(this, null, function* () {
     const data = yield loadData();
     return {
+      data() {
+        return data;
+      },
       publishPost(file) {
         return __async(this, null, function* () {
           if (data.posts[file.path]) {
@@ -205,7 +208,7 @@ var strings = flatten({
     },
     update: {
       name: "Update in Obsius",
-      success: "Updated note in Obsius",
+      success: "Updated note in Obsius. It may take a little while before update becomes visible.",
       failure: "Failed to update note in Obsius"
     },
     copyUrl: {
@@ -217,6 +220,12 @@ var strings = flatten({
       name: "Remove from Obsius",
       success: "Note removed from Obsius",
       failure: "Failed to remove note form Obsius"
+    },
+    listPosts: {
+      name: "View published posts",
+      title: "Published posts",
+      showFile: "View file",
+      showPost: "View post"
     }
   },
   modals: {
@@ -237,8 +246,49 @@ function getText(path, ...args) {
   return path;
 }
 
+// src/modals.ts
+var import_obsidian = __toModule(require("obsidian"));
+var PublishedPostsModal = class extends import_obsidian.Modal {
+  constructor(app2, obsiusClient) {
+    super(app2);
+    this.obsiusClient = obsiusClient;
+  }
+  onOpen() {
+    this.contentEl.createEl("h1", { text: getText("actions.listPosts.title") });
+    for (const [path] of Object.entries(this.obsiusClient.data().posts)) {
+      const file = app.vault.getAbstractFileByPath(path);
+      if (!(file instanceof import_obsidian.TFile)) {
+        continue;
+      }
+      const container = this.contentEl.createEl("div", {
+        cls: ["published-posts-modal", "list-item-container"]
+      });
+      container.createEl("span", { text: path });
+      const buttonContainer = container.createEl("div");
+      const showFile = buttonContainer.createEl("button", {
+        title: getText("actions.listPosts.showFile")
+      });
+      showFile.addEventListener("click", () => app.workspace.openLinkText(path, path).then(() => this.close()));
+      (0, import_obsidian.setIcon)(showFile, "file-text");
+      const webLink = buttonContainer.createEl("a", {
+        cls: "hidden",
+        href: this.obsiusClient.getUrl(file)
+      });
+      const showPost = buttonContainer.createEl("button");
+      showPost.addEventListener("click", () => {
+        webLink.click();
+        this.close();
+      });
+      (0, import_obsidian.setIcon)(showPost, "globe");
+    }
+  }
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+
 // main.ts
-var ObsiusPlugin = class extends import_obsidian.Plugin {
+var ObsiusPlugin = class extends import_obsidian2.Plugin {
   onload() {
     return __async(this, null, function* () {
       this.obsiusClient = yield createClient(() => __async(this, null, function* () {
@@ -248,52 +298,118 @@ var ObsiusPlugin = class extends import_obsidian.Plugin {
       }), (data) => __async(this, null, function* () {
         return yield this.saveData(data);
       }));
-      this.registerEvent(this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian.TFile) {
-          menu.addSeparator();
-          if (!this.obsiusClient.getUrl(file)) {
-            menu.addItem((item) => item.setTitle(getText("actions.create.name")).setIcon("up-chevron-glyph").onClick(() => __async(this, null, function* () {
-              try {
-                const url = yield this.obsiusClient.createPost(file);
-                yield navigator.clipboard.writeText(url);
-                new import_obsidian.Notice(getText("actions.create.success"));
-              } catch (e) {
-                console.error(e);
-                new import_obsidian.Notice(getText("actions.create.failure"));
-              }
-            })));
-          } else {
-            menu.addItem((item) => item.setTitle(getText("actions.update.name")).setIcon("double-up-arrow-glyph").onClick(() => __async(this, null, function* () {
-              try {
-                yield this.obsiusClient.updatePost(file);
-                new import_obsidian.Notice(getText("actions.update.success"));
-              } catch (e) {
-                console.error(e);
-                new import_obsidian.Notice(getText("actions.update.failure"));
-              }
-            }))).addItem((item) => item.setTitle(getText("actions.copyUrl.name")).setIcon("link").onClick(() => __async(this, null, function* () {
-              const url = this.obsiusClient.getUrl(file);
-              if (url) {
-                yield navigator.clipboard.writeText(url);
-                new import_obsidian.Notice(getText("actions.copyUrl.success"));
-              } else {
-                new import_obsidian.Notice(getText("actions.copyUrl.failure"));
-              }
-            }))).addItem((item) => item.setTitle(getText("actions.remove.name")).setIcon("cross").onClick(() => __async(this, null, function* () {
-              try {
-                yield this.obsiusClient.deletePost(file);
-                new import_obsidian.Notice(getText("actions.remove.success"));
-              } catch (e) {
-                console.error(e);
-                new import_obsidian.Notice(getText("actions.remove.failure"));
-              }
-            })));
-          }
-          menu.addSeparator();
-        }
-      }));
+      this.addObsiusCommands();
+      this.registerFileMenuEvent();
     });
   }
   onunload() {
+  }
+  addObsiusCommands() {
+    this.addCommand({
+      id: "obsius.action.listPosts",
+      name: getText("actions.listPosts.name"),
+      callback: () => this.showPublishedPosts()
+    });
+    this.addCommand({
+      id: "obsius.action.create",
+      name: getText("actions.create.name"),
+      editorCheckCallback: (checking, _, view) => {
+        if (checking) {
+          return !this.obsiusClient.getUrl(view.file);
+        }
+        this.publishFile(view.file);
+      }
+    });
+    this.addCommand({
+      id: "obsius.action.update",
+      name: getText("actions.update.name"),
+      editorCheckCallback: (checking, _, view) => {
+        if (checking) {
+          return !!this.obsiusClient.getUrl(view.file);
+        }
+        this.updateFile(view.file);
+      }
+    });
+    this.addCommand({
+      id: "obsius.action.copyUrl",
+      name: getText("actions.copyUrl.name"),
+      editorCheckCallback: (checking, _, view) => {
+        if (checking) {
+          return !!this.obsiusClient.getUrl(view.file);
+        }
+        this.copyUrl(view.file);
+      }
+    });
+    this.addCommand({
+      id: "obsius.action.remove",
+      name: getText("actions.remove.name"),
+      editorCheckCallback: (checking, _, view) => {
+        if (checking) {
+          return !!this.obsiusClient.getUrl(view.file);
+        }
+        this.deleteFile(view.file);
+      }
+    });
+  }
+  registerFileMenuEvent() {
+    this.registerEvent(this.app.workspace.on("file-menu", (menu, file) => {
+      if (file instanceof import_obsidian2.TFile) {
+        menu.addSeparator();
+        if (!this.obsiusClient.getUrl(file)) {
+          menu.addItem((item) => item.setTitle(getText("actions.create.name")).setIcon("up-chevron-glyph").onClick(() => this.publishFile(file)));
+        } else {
+          menu.addItem((item) => item.setTitle(getText("actions.update.name")).setIcon("double-up-arrow-glyph").onClick(() => this.updateFile(file))).addItem((item) => item.setTitle(getText("actions.copyUrl.name")).setIcon("link").onClick(() => this.copyUrl(file))).addItem((item) => item.setTitle(getText("actions.remove.name")).setIcon("cross").onClick(() => this.deleteFile(file)));
+        }
+        menu.addSeparator();
+      }
+    }));
+  }
+  showPublishedPosts() {
+    new PublishedPostsModal(this.app, this.obsiusClient).open();
+  }
+  publishFile(file) {
+    return __async(this, null, function* () {
+      try {
+        const url = yield this.obsiusClient.createPost(file);
+        yield navigator.clipboard.writeText(url);
+        new import_obsidian2.Notice(getText("actions.create.success"));
+      } catch (e) {
+        console.error(e);
+        new import_obsidian2.Notice(getText("actions.create.failure"));
+      }
+    });
+  }
+  updateFile(file) {
+    return __async(this, null, function* () {
+      try {
+        yield this.obsiusClient.updatePost(file);
+        new import_obsidian2.Notice(getText("actions.update.success"));
+      } catch (e) {
+        console.error(e);
+        new import_obsidian2.Notice(getText("actions.update.failure"));
+      }
+    });
+  }
+  copyUrl(file) {
+    return __async(this, null, function* () {
+      const url = this.obsiusClient.getUrl(file);
+      if (url) {
+        yield navigator.clipboard.writeText(url);
+        new import_obsidian2.Notice(getText("actions.copyUrl.success"));
+      } else {
+        new import_obsidian2.Notice(getText("actions.copyUrl.failure"));
+      }
+    });
+  }
+  deleteFile(file) {
+    return __async(this, null, function* () {
+      try {
+        yield this.obsiusClient.deletePost(file);
+        new import_obsidian2.Notice(getText("actions.remove.success"));
+      } catch (e) {
+        console.error(e);
+        new import_obsidian2.Notice(getText("actions.remove.failure"));
+      }
+    });
   }
 };

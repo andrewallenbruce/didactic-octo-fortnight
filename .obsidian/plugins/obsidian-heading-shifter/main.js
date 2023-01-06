@@ -209,7 +209,7 @@ var InterfaceService = class {
 
 // src/features/applyHeading/module.ts
 var applyHeading = (chunk, headingSize) => {
-  const remove = chunk.replace(/^#+ /, "").replace(/^(\-|\*|\d+\.) /, "");
+  const remove = chunk.replace(/^(\-|\*|\d+\.) /, "").replace(/^#+ /, "");
   if (headingSize <= 0)
     return remove;
   return new Array(headingSize).fill("#").reduce((prev, cur) => {
@@ -234,29 +234,6 @@ var composeLineChanges = (editor, lineNumbers, changeCallback) => {
   return editorChange;
 };
 
-// src/features/applyHeading/operation.ts
-var createApplyHeadingCommand = (setting, headingSize) => {
-  const createEditorCallback = (heading) => {
-    return (editor) => {
-      if (editor.getCursor("from").line != editor.getCursor("to").line) {
-        return;
-      }
-      editor.transaction({
-        changes: composeLineChanges(editor, [editor.getCursor().line], (chunk) => applyHeading(chunk, heading))
-      });
-    };
-  };
-  return {
-    id: `apply-heading${headingSize}`,
-    name: `Apply Heading ${headingSize}`,
-    icon: `headingShifter_heading${headingSize}`,
-    editorCallback: createEditorCallback(headingSize)
-  };
-};
-
-// src/features/shiftHeading/operation.ts
-var import_obsidian4 = require("obsidian");
-
 // src/utils/range.ts
 var setMin = (prev, cur) => {
   if (prev == void 0 || prev !== void 0 && cur < prev) {
@@ -270,6 +247,32 @@ var setMax = (prev, cur) => {
   }
   return prev;
 };
+var createRange = (start, num) => Array.from(Array(num), (v, k) => k + start);
+
+// src/features/applyHeading/operation.ts
+var createApplyHeadingCommand = (setting, headingSize) => {
+  const createEditorCallback = (heading) => {
+    return (editor) => {
+      const lines = createRange(editor.getCursor("from").line, editor.getCursor("to").line - editor.getCursor("from").line + 1);
+      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
+      editor.transaction({
+        changes: composeLineChanges(editor, lines, (chunk) => applyHeading(chunk, heading))
+      });
+      if (isOneline) {
+        editor.setCursor(editor.getCursor("anchor").line);
+      }
+    };
+  };
+  return {
+    id: `apply-heading${headingSize}`,
+    name: `Apply Heading ${headingSize}`,
+    icon: `headingShifter_heading${headingSize}`,
+    editorCallback: createEditorCallback(headingSize)
+  };
+};
+
+// src/features/shiftHeading/operation.ts
+var import_obsidian4 = require("obsidian");
 
 // src/utils/markdown.ts
 var checkHeading = (content) => {

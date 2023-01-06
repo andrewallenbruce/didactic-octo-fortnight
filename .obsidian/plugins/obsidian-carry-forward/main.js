@@ -113,7 +113,7 @@ Please update the Carry-Forward settings and try again.`, 1e3 * 30);
       if (settings.removeLeadingWhitespace === true && lineNumber === minLine && cursorFrom.ch === cursorTo.ch) {
         copiedLine = copiedLine.replace(/^\s*/, "");
       }
-      if (selections.length > 1 && (lineNumber === minLine || lineNumber === maxLine) && !(minLine === maxLine && cursorFrom.ch === cursorTo.ch)) {
+      if (selections.length > 0 && (lineNumber === minLine || lineNumber === maxLine) && !(minLine === maxLine && cursorFrom.ch === cursorTo.ch)) {
         copiedLine = line.slice(lineNumber === minLine ? cursorFrom.ch : 0, lineNumber === maxLine ? cursorTo.ch : line.length - 1);
       }
       if (editor.getLine(lineNumber).match(/^\s*$/) && !(lineNumber === minLine && minLine === maxLine)) {

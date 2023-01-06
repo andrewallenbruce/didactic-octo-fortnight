@@ -7,7 +7,7 @@
     "_Index_of_HIM & I.md": {
       "size": 0,
       "tags": 1,
-      "links": 13
+      "links": 15
     },
     "Analytics/Data Analytics Course/_Index_of_Data Analytics Course.md": {
       "size": 0,
@@ -2757,7 +2757,7 @@
     "HIMT/_Index_of_HIMT.md": {
       "size": 0,
       "tags": 1,
-      "links": 8
+      "links": 9
     },
     "HIMT/RCM/_Index_of_RCM.md": {
       "size": 0,
@@ -2957,7 +2957,7 @@
     "Professional Development/Resume/_Index_of_Resume.md": {
       "size": 0,
       "tags": 0,
-      "links": 15
+      "links": 17
     },
     "Professional Development/_Index_of_Professional Development.md": {
       "size": 0,
@@ -3607,7 +3607,7 @@
     "HIMT/Glossary/_Index_of_Glossary.md": {
       "size": 16336,
       "tags": 2,
-      "links": 149
+      "links": 152
     },
     "HIMT/Glossary/Write-Off.md": {
       "size": 2224,
@@ -3982,7 +3982,7 @@
     "HIMT/RCM/Healthcare KPI Site/_Index_of_Healthcare KPI Site.md": {
       "size": 1,
       "tags": 0,
-      "links": 5
+      "links": 10
     },
     "HIMT/2021 AAPC CDEI Course/CDEI Chapter 7 Quiz + Review.md": {
       "size": 44329,
@@ -6587,19 +6587,94 @@
     "R/_Index_of_R.md": {
       "size": 0,
       "tags": 1,
-      "links": 3
+      "links": 6
     },
     "R/Package Development.md": {
-      "size": 27629,
+      "size": 32144,
       "tags": 0,
-      "links": 0
+      "links": 6
     },
     "R/forager Package.md": {
-      "size": 2901,
+      "size": 3705,
+      "tags": 0,
+      "links": 3
+    },
+    "R/defogger Package.md": {
+      "size": 2170,
+      "tags": 0,
+      "links": 2
+    },
+    "Twitter/Notes/aabrucehimni - 1494749173157138440.md": {
+      "size": 1185,
       "tags": 0,
       "links": 0
     },
-    "R/defogger Package.md": {
+    "Twitter/Notes/_Index_of_Notes.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "Twitter/_Index_of_Twitter.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "Twitter/Notes/BioinfoCreed - 1567516491737612288.md": {
+      "size": 1061,
+      "tags": 3,
+      "links": 0
+    },
+    "R Packages.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "HIMT/2022 Denials Resolution Course/_Index_of_2022 Denials Resolution Course.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 3
+    },
+    "HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md": {
+      "size": 6450,
+      "tags": 0,
+      "links": 0
+    },
+    "HIMT/2022 Denials Resolution Course/LCT 2 CMS 1500 and EOBs.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "HIMT/2022 Denials Resolution Course/LCT 3 Denial Resolution Case Studies.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "R/Untitled database.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "R/Automated Reporting.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "R/provider/provider Package.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "R/provider/_Index_of_provider.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 2
+    },
+    "R/provider/Medicare FFS Public Provider Enrollment/_Index_of_Medicare FFS Public Provider Enrollment.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
+    },
+    "R/provider/Medicare FFS Public Provider Enrollment/Medicare Fee-For-Service Public Provider Enrollment.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -6607,54 +6682,63 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 2281,
-      "Create": 1322,
-      "Link": 2003,
-      "Expand": 807
+      "Refactor": 2288,
+      "Create": 1339,
+      "Link": 2031,
+      "Expand": 816
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 64,
-      "1": 101,
-      "2": 833,
-      "3": 210,
+      "0": 71,
+      "1": 105,
+      "2": 836,
+      "3": 211,
       "4": 224,
-      "5": 223,
-      "6": 151,
+      "5": 235,
+      "6": 153,
       "7": 306,
-      "8": 22,
-      "9": 83,
-      "10": 168,
-      "11": 545,
+      "8": 25,
+      "9": 84,
+      "10": 170,
+      "11": 550,
       "12": 202,
       "13": 740,
       "14": 133,
-      "15": 319,
-      "16": 869,
-      "17": 171,
+      "15": 321,
+      "16": 870,
+      "17": 172,
       "18": 241,
-      "19": 193,
-      "20": 180,
+      "19": 200,
+      "20": 185,
       "21": 228,
       "22": 126,
-      "23": 81
+      "23": 86
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 770,
-      "Tue": 1205,
-      "Wed": 822,
-      "Thu": 112,
+      "Tue": 1209,
+      "Wed": 858,
+      "Thu": 128,
       "Fri": 1010,
       "Sat": 0,
-      "Sun": 2494
+      "Sun": 2499
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"R/Package Development.md\"> Package Development </a>",
+        "<a class=\"internal-link\" href=\"R/defogger Package.md\"> defogger Package </a>",
+        "<a class=\"internal-link\" href=\"R/forager Package.md\"> forager Package </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md\"> LCT 1 Revenue Cycle Overview </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md\"> LCT 1 Revenue Cycle Overview </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md\"> LCT 1 Revenue Cycle Overview </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md\"> LCT 1 Revenue Cycle Overview </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md\"> LCT 1 Revenue Cycle Overview </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/LCT 1 Revenue Cycle Overview.md\"> LCT 1 Revenue Cycle Overview </a>",
         "<a class=\"internal-link\" href=\"R/forager Package.md\"> forager Package </a>",
         "<a class=\"internal-link\" href=\"R/Package Development.md\"> Package Development </a>",
         "<a class=\"internal-link\" href=\"R/Package Development.md\"> Package Development </a>",
@@ -6696,18 +6780,26 @@
         "<a class=\"internal-link\" href=\"HIMT/Glossary/Denial.md\"> Denial </a>",
         "<a class=\"internal-link\" href=\"HIMT/Glossary/Denial.md\"> Denial </a>",
         "<a class=\"internal-link\" href=\"HIMT/Glossary/Denial.md\"> Denial </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Denial.md\"> Denial </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Medically Unlikely Edits.md\"> Medically Unlikely Edits </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Local Coverage Determination.md\"> Local Coverage Determination </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/KPIs/DAR Formulas.md\"> DAR Formulas </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/KPIs/DAR Formulas.md\"> DAR Formulas </a>",
-        "<a class=\"internal-link\" href=\"Analytics/RStudio/Packages/tidyr.md\"> tidyr </a>",
-        "<a class=\"internal-link\" href=\"Analytics/RStudio/Packages/dplyr.md\"> dplyr </a>",
-        "<a class=\"internal-link\" href=\"Analytics/RStudio/Packages/ggplot2.md\"> ggplot2 </a>",
-        "<a class=\"internal-link\" href=\"Analytics/RStudio/Packages/ggplot2.md\"> ggplot2 </a>",
-        "<a class=\"internal-link\" href=\"Analytics/RStudio/Packages/ggplot2.md\"> ggplot2 </a>"
+        "<a class=\"internal-link\" href=\"HIMT/Glossary/Denial.md\"> Denial </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"R/provider/Medicare FFS Public Provider Enrollment/_Index_of_Medicare FFS Public Provider Enrollment.md\"> _Index_of_Medicare FFS Public Provider Enrollment </a>",
+        "<a class=\"internal-link\" href=\"R/provider/Medicare FFS Public Provider Enrollment/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"R/provider/_Index_of_provider.md\"> _Index_of_provider </a>",
+        "<a class=\"internal-link\" href=\"R/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"R/Untitled database.md\"> Untitled database </a>",
+        "<a class=\"internal-link\" href=\"Buttons 1.0 is Coming.md\"> Buttons 1.0 is Coming </a>",
+        "<a class=\"internal-link\" href=\"R/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/_Index_of_2022 Denials Resolution Course.md\"> _Index_of_2022 Denials Resolution Course </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"R Packages.md\"> R Packages </a>",
+        "<a class=\"internal-link\" href=\"Twitter/Notes/BioinfoCreed - 1567516491737612288.md\"> BioinfoCreed - 1567516491737612288 </a>",
+        "<a class=\"internal-link\" href=\"Twitter/_Index_of_Twitter.md\"> _Index_of_Twitter </a>",
+        "<a class=\"internal-link\" href=\"Twitter/Notes/_Index_of_Notes.md\"> _Index_of_Notes </a>",
+        "<a class=\"internal-link\" href=\"Twitter/Notes/aabrucehimni - 1494749173157138440.md\"> aabrucehimni - 1494749173157138440 </a>",
         "<a class=\"internal-link\" href=\"R/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"R/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"R/_Index_of_R.md\"> _Index_of_R </a>",
@@ -6741,26 +6833,11 @@
         "<a class=\"internal-link\" href=\"Analytics/R Documents/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"INBOX/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"INBOX/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Design/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"HIMT/MACRA/7 - MIPS Overview 1.md\"> 7 - MIPS Overview 1 </a>",
-        "<a class=\"internal-link\" href=\"INBOX/_Index_of_INBOX.md\"> _Index_of_INBOX </a>",
-        "<a class=\"internal-link\" href=\"Kanban Notes/_Index_of_Kanban Notes.md\"> _Index_of_Kanban Notes </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Templates/Definition Reimbursement 1.md\"> Definition Reimbursement 1 </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Resource Based Relative Value Scale (RBRVS).md\"> Resource Based Relative Value Scale (RBRVS) </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Prompt Payment Act.md\"> Prompt Payment Act </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Non-covered service.md\"> Non-covered service </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Ledger Card.md\"> Ledger Card </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Itemized Statement.md\"> Itemized Statement </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Fee-For-Service (FFS).md\"> Fee-For-Service (FFS) </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Fair Credit Reporting Act.md\"> Fair Credit Reporting Act </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Fair Debt Collection Practices Act (FDCPA).md\"> Fair Debt Collection Practices Act (FDCPA) </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Coverage Terminated.md\"> Coverage Terminated </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/Bankruptcy.md\"> Bankruptcy </a>"
+        "<a class=\"internal-link\" href=\"Design/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"R/provider/provider Package.md\"> provider Package </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/LCT 2 CMS 1500 and EOBs.md\"> LCT 2 CMS 1500 and EOBs </a>",
         "<a class=\"internal-link\" href=\"HIMT/MACRA/8 - MIPS Cost.md\"> 8 - MIPS Cost </a>",
         "<a class=\"internal-link\" href=\"Analytics/Glossary/Key Performance Indicator.md\"> Key Performance Indicator </a>",
         "<a class=\"internal-link\" href=\"HIMT/PDFS to Markdown/HIMSS Performance Management/Key Performance Indicator.md\"> Key Performance Indicator </a>",
@@ -6809,11 +6886,14 @@
         "<a class=\"internal-link\" href=\"Analytics/Glossary/C(sharp).md\"> C(sharp) </a>",
         "<a class=\"internal-link\" href=\"Analytics/Glossary/C(sharp.md\"> C(sharp </a>",
         "<a class=\"internal-link\" href=\"Templates/YAML Analytics.md\"> YAML Analytics </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/Data Glossary.md\"> Data Glossary </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/DAR Project/Basic measures of healthcare utilization, cost and price.md\"> Basic measures of healthcare utilization, cost and price </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/DAR Project/2. Basic Formulas.md\"> 2. Basic Formulas </a>"
+        "<a class=\"internal-link\" href=\"Analytics/Glossary/Data Glossary.md\"> Data Glossary </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"R/provider/_Index_of_provider.md\"> _Index_of_provider </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/_Index_of_2022 Denials Resolution Course.md\"> _Index_of_2022 Denials Resolution Course </a>",
+        "<a class=\"internal-link\" href=\"Twitter/Notes/_Index_of_Notes.md\"> _Index_of_Notes </a>",
+        "<a class=\"internal-link\" href=\"Twitter/Notes/BioinfoCreed - 1567516491737612288.md\"> BioinfoCreed - 1567516491737612288 </a>",
+        "<a class=\"internal-link\" href=\"Twitter/_Index_of_Twitter.md\"> _Index_of_Twitter </a>",
         "<a class=\"internal-link\" href=\"R/_Index_of_R.md\"> _Index_of_R </a>",
         "<a class=\"internal-link\" href=\"Analytics/R Documents/_Index_of_R Documents.md\"> _Index_of_R Documents </a>",
         "<a class=\"internal-link\" href=\"Analytics/RStudio/_Index_of_RStudio.md\"> _Index_of_RStudio </a>",
@@ -6859,12 +6939,7 @@
         "<a class=\"internal-link\" href=\"Analytics/Glossary/Temporary table.md\"> Temporary table </a>",
         "<a class=\"internal-link\" href=\"Analytics/Glossary/Text data type.md\"> Text data type </a>",
         "<a class=\"internal-link\" href=\"Analytics/Glossary/Text string.md\"> Text string </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/Third-party data.md\"> Third-party data </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/Tibble (R).md\"> Tibble (R) </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/Tidy data (R).md\"> Tidy data (R) </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/tidyr (R).md\"> tidyr (R) </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/Tidyverse (R).md\"> Tidyverse (R) </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/Time-bound question.md\"> Time-bound question </a>"
+        "<a class=\"internal-link\" href=\"Analytics/Glossary/Third-party data.md\"> Third-party data </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Data Analytics Course/4 - Process Data from Dirty to Clean/Week 1/More about data integrity and compliance.md\"> More about data integrity and compliance </a>",
@@ -6892,6 +6967,8 @@
         "<a class=\"internal-link\" href=\"Analytics/Glossary/Data Glossary.md\"> Data Glossary </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Buttons 1.0 is Coming.md\"> Buttons 1.0 is Coming </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"HIMT/PDFS to Markdown/CPB Study Guide/2020MBT_CPB_TB_Ch10_Online.md\"> 2020MBT_CPB_TB_Ch10_Online </a>",
         "<a class=\"internal-link\" href=\"HIMT/Glossary/1 Glossary.md\"> 1 Glossary </a>",
@@ -6940,11 +7017,32 @@
         "<a class=\"internal-link\" href=\"RCM/Drawing 2021-08-28 18.21.07.excalidraw.md\"> Drawing 2021-08-28 18.21.07.excalidraw </a>",
         "<a class=\"internal-link\" href=\"RCM/Drawing 2021-08-28 18.21.07.excalidraw.md\"> Drawing 2021-08-28 18.21.07.excalidraw </a>",
         "<a class=\"internal-link\" href=\"RCM/Drawing 2021-08-28 18.21.07.excalidraw.md\"> Drawing 2021-08-28 18.21.07.excalidraw </a>",
-        "<a class=\"internal-link\" href=\"Data Analytics Course/Untitled mindmap.md\"> Untitled mindmap </a>",
-        "<a class=\"internal-link\" href=\"Data Analytics Course/8 - Capstone Study/Week 8.1/_Index_of_Week 1.md\"> _Index_of_Week 1 </a>",
-        "<a class=\"internal-link\" href=\"Data Analytics Course/7 - Data Analysis with R Programming/Week 7.5/_Index_of_Week 5.md\"> _Index_of_Week 5 </a>"
+        "<a class=\"internal-link\" href=\"Data Analytics Course/Untitled mindmap.md\"> Untitled mindmap </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
+        "<a class=\"internal-link\" href=\"R/provider/_Index_of_provider.md\"> _Index_of_provider </a>",
+        "<a class=\"internal-link\" href=\"R/provider/Medicare FFS Public Provider Enrollment/_Index_of_Medicare FFS Public Provider Enrollment.md\"> _Index_of_Medicare FFS Public Provider Enrollment </a>",
+        "<a class=\"internal-link\" href=\"R/_Index_of_R.md\"> _Index_of_R </a>",
+        "<a class=\"internal-link\" href=\"HIMT/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
+        "<a class=\"internal-link\" href=\"HIMT/RCM/Healthcare KPI Site/_Index_of_Healthcare KPI Site.md\"> _Index_of_Healthcare KPI Site </a>",
+        "<a class=\"internal-link\" href=\"Professional Development/Resume/_Index_of_Resume.md\"> _Index_of_Resume </a>",
+        "<a class=\"internal-link\" href=\"R/_Index_of_R.md\"> _Index_of_R </a>",
+        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
+        "<a class=\"internal-link\" href=\"R/_Index_of_R.md\"> _Index_of_R </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/_Index_of_2022 Denials Resolution Course.md\"> _Index_of_2022 Denials Resolution Course </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/_Index_of_2022 Denials Resolution Course.md\"> _Index_of_2022 Denials Resolution Course </a>",
+        "<a class=\"internal-link\" href=\"HIMT/_Index_of_HIMT.md\"> _Index_of_HIMT </a>",
+        "<a class=\"internal-link\" href=\"HIMT/2022 Denials Resolution Course/_Index_of_2022 Denials Resolution Course.md\"> _Index_of_2022 Denials Resolution Course </a>",
+        "<a class=\"internal-link\" href=\"R/Package Development.md\"> Package Development </a>",
+        "<a class=\"internal-link\" href=\"R/defogger Package.md\"> defogger Package </a>",
+        "<a class=\"internal-link\" href=\"R/forager Package.md\"> forager Package </a>",
+        "<a class=\"internal-link\" href=\"R/Package Development.md\"> Package Development </a>",
+        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
+        "<a class=\"internal-link\" href=\"Twitter/Notes/_Index_of_Notes.md\"> _Index_of_Notes </a>",
+        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
+        "<a class=\"internal-link\" href=\"Twitter/Notes/_Index_of_Notes.md\"> _Index_of_Notes </a>",
+        "<a class=\"internal-link\" href=\"Twitter/_Index_of_Twitter.md\"> _Index_of_Twitter </a>",
         "<a class=\"internal-link\" href=\"R/_Index_of_R.md\"> _Index_of_R </a>",
         "<a class=\"internal-link\" href=\"R/_Index_of_R.md\"> _Index_of_R </a>",
         "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
@@ -6972,30 +7070,7 @@
         "<a class=\"internal-link\" href=\"Analytics/_Index_of_Analytics.md\"> _Index_of_Analytics </a>",
         "<a class=\"internal-link\" href=\"Analytics/R Documents/_Index_of_R Documents.md\"> _Index_of_R Documents </a>",
         "<a class=\"internal-link\" href=\"INBOX/_Index_of_INBOX.md\"> _Index_of_INBOX </a>",
-        "<a class=\"internal-link\" href=\"INBOX/_Index_of_INBOX.md\"> _Index_of_INBOX </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/KPIs/BPI.md\"> BPI </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/KPIs/BPI.md\"> BPI </a>",
-        "<a class=\"internal-link\" href=\"Design/_Index_of_Design.md\"> _Index_of_Design </a>",
-        "<a class=\"internal-link\" href=\"HIMT/MACRA/_Index_of_MACRA.md\"> _Index_of_MACRA </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"Kanban Notes/_Index_of_Kanban Notes.md\"> _Index_of_Kanban Notes </a>",
-        "<a class=\"internal-link\" href=\"INBOX/_Index_of_INBOX.md\"> _Index_of_INBOX </a>",
-        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
-        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"Templates/_Index_of_Templates.md\"> _Index_of_Templates </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"HIMT/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/DAR Project/_Index_of_DAR Project.md\"> _Index_of_DAR Project </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/DAR Project/1. Introduction.md\"> 1. Introduction </a>",
-        "<a class=\"internal-link\" href=\"HIMT/RCM/DAR Project/1. Introduction.md\"> 1. Introduction </a>"
+        "<a class=\"internal-link\" href=\"INBOX/_Index_of_INBOX.md\"> _Index_of_INBOX </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Assets/Glossary/Fraud.md\"> Fraud </a>",
@@ -7018,6 +7093,9 @@
         "<a class=\"internal-link\" href=\"HIMT/Glossary/AHIMA Pocket Glossary of HIMT (A).md\"> AHIMA Pocket Glossary of HIMT (A) </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
+        "<a class=\"internal-link\" href=\"_Index_of_HIM & I.md\"> _Index_of_HIM & I </a>",
+        "<a class=\"internal-link\" href=\"R/Package Development.md\"> Package Development </a>",
         "<a class=\"internal-link\" href=\"Analytics/RStudio/R Links.md\"> R Links </a>",
         "<a class=\"internal-link\" href=\"HIMT/Glossary/_Index_of_Glossary.md\"> _Index_of_Glossary </a>",
         "<a class=\"internal-link\" href=\"HIMT/RCM/Healthcare KPI Site/_Index_of_Healthcare KPI Site.md\"> _Index_of_Healthcare KPI Site </a>",
@@ -7065,10 +7143,7 @@
         "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/7 - Data Analysis with R Programming/Week 7.5/_Index_of_Week 7.5.md\"> _Index_of_Week 7.5 </a>",
         "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/7 - Data Analysis with R Programming/_Index_of_7 - Data Analysis with R Programming.md\"> _Index_of_7 - Data Analysis with R Programming </a>",
         "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/8 - Capstone Study/Week 8.1/_Index_of_Week 8.1.md\"> _Index_of_Week 8.1 </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/8 - Capstone Study/Week 8.2/_Index_of_Week 8.2.md\"> _Index_of_Week 8.2 </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/8 - Capstone Study/Week 8.3/_Index_of_Week 8.3.md\"> _Index_of_Week 8.3 </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/8 - Capstone Study/Week 8.4/_Index_of_Week 8.4.md\"> _Index_of_Week 8.4 </a>",
-        "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/8 - Capstone Study/_Index_of_8 - Capstone Study.md\"> _Index_of_8 - Capstone Study </a>"
+        "<a class=\"internal-link\" href=\"Analytics/Data Analytics Course/8 - Capstone Study/Week 8.2/_Index_of_Week 8.2.md\"> _Index_of_Week 8.2 </a>"
       ]
     }
   },

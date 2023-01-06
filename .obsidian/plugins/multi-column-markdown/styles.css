@@ -13,6 +13,9 @@
 .mcm-single-column-large {
     width: 75%;
 }
+.mcm-single-column-full {
+    width: 100%;
+}
 
 /* ----------------------------------- */
 
@@ -148,4 +151,16 @@
 
 .mcm-content-overflow-auto-scroll {
     overflow-x: auto;
+}
+
+.mcm-content-alignment-left {
+    text-align: left;
+}
+
+.mcm-content-alignment-center {
+    text-align: center;
+}
+
+.mcm-content-alignment-right {
+    text-align: right;
 }
